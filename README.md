@@ -11,4 +11,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0046-permutations](https://github.com/ashirvad47/L.C.D/tree/master/0046-permutations) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/ashirvad47/L.C.D/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
