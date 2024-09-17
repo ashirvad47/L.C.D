@@ -2,4 +2,4 @@
 Select * 
 From Cinema
 Where description !=  'boring' and id%2 !=0
-Order by rating DESC
+Order by rating DESC;
