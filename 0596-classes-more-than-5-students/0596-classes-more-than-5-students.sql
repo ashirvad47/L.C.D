@@ -2,4 +2,4 @@
 Select class 
 From Courses
 Group By class
-Having Count(class) > 4
+Having Count(student) >= 5
