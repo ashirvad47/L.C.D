@@ -12,7 +12,7 @@
 
 SELECT person_name 
 FROM (
-    SELECT person_name, weight, turn, 
+    SELECT person_name,turn, 
     SUM(weight) OVER(ORDER BY turn) AS cum_sum 
     FROM Queue
 ) x
