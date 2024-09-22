@@ -9,12 +9,13 @@
 -- WHERE visited_on>= first_date+6;
 
 
-select distinct visited_on,
-        sum(amount) over w as amount,
-        round((sum(amount) over w)/7, 2) as average_amount
-    from customer
-    WINDOW w AS ( 
-            order by visited_on
-            range between interval 6 day PRECEDING and current row
-    )
-    Limit 6, 999
+SELECT DISTINCT visited_on,
+       SUM(amount) OVER w AS amount,
+       ROUND((SUM(amount) OVER w) / 7, 2) AS average_amount
+FROM customer
+WINDOW w AS (
+    ORDER BY visited_on
+    RANGE BETWEEN INTERVAL 6 DAY PRECEDING AND CURRENT ROW
+)
+LIMIT 999 OFFSET 6;
+
