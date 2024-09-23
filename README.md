@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Database
 |  |
 | ------- |
+| [0176-second-highest-salary](https://github.com/ashirvad47/L.C.D/tree/master/0176-second-highest-salary) |
 | [0180-consecutive-numbers](https://github.com/ashirvad47/L.C.D/tree/master/0180-consecutive-numbers) |
 | [0185-department-top-three-salaries](https://github.com/ashirvad47/L.C.D/tree/master/0185-department-top-three-salaries) |
 | [0196-delete-duplicate-emails](https://github.com/ashirvad47/L.C.D/tree/master/0196-delete-duplicate-emails) |
