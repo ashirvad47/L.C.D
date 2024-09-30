@@ -9,8 +9,8 @@ class Solution {
                 break;
             }
         }
-        if (length == 0) { // added this check
-            length = s.length(); // return the length of the entire string if no space is found
+        if (length == 0) { 
+            length = s.length();
         }
         
         return length;
