@@ -1,15 +1,16 @@
 class Solution {
     public int lengthOfLastWord(String s) {
-        // Trim any trailing spaces
         s = s.trim();
         
-        // Start from the last character and find the start of the last word
         int length = 0;
         for(int i = s.length() - 1; i >= 0; i--) {
             if (s.charAt(i) == ' ') {
+                length = s.length()-1-i;
                 break;
             }
-            length++;
+        }
+        if (length == 0) { // added this check
+            length = s.length(); // return the length of the entire string if no space is found
         }
         
         return length;
