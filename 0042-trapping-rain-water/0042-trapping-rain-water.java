@@ -7,20 +7,24 @@ class Solution {
     int maxRight = 0;
 
     while (left <= right) {
-        // Update maxLeft and maxRight
-        maxLeft = Math.max(maxLeft, height[left]);
-        maxRight = Math.max(maxRight, height[right]);
-
-        // Calculate water trapped at current position
-        if (maxLeft < maxRight) {
-            water += Math.max(0, maxLeft - height[left]);
+        if (height[left] < height[right]) {
+            if (height[left] >= maxLeft) {
+                maxLeft = height[left];
+            } else {
+                water += maxLeft - height[left];
+            }
             left++;
         } else {
-            water += Math.max(0, maxRight - height[right]);
+            if (height[right] >= maxRight) {
+                maxRight = height[right];
+            } else {
+                water += maxRight - height[right];
+            }
             right--;
         }
     }
 
     return water;
 }
+
 }
