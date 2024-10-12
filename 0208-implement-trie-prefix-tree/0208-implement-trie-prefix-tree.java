@@ -10,11 +10,7 @@ class Node {
 }
 
 class Trie {
-    Node root = new Node();; 
-
-    // public Trie() {
-    //     root = new Node();
-    // }
+    Node root = new Node();
 
     public void insert(String word) {
         Node current = root; 
