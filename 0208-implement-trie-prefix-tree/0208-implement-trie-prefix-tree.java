@@ -10,11 +10,11 @@ class Node {
 }
 
 class Trie {
-    Node root; 
+    Node root = new Node();; 
 
-    public Trie() {
-        root = new Node();
-    }
+    // public Trie() {
+    //     root = new Node();
+    // }
 
     public void insert(String word) {
         Node current = root; 
@@ -52,6 +52,6 @@ class Trie {
             }
             current = current.children[idx];
         }
-        return true; // Prefix found!
+        return true; 
     }
 }
