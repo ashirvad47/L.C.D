@@ -174,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/ashirvad47/L.C.D/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
+| [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -272,4 +273,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/ashirvad47/L.C.D/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
+## Enumeration
+|  |
+| ------- |
+| [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 <!---LeetCode Topics End-->
