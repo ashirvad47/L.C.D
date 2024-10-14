@@ -4,23 +4,22 @@ class Solution {
         for(int i :nums){
             set.add(i);
         }
-        int count=0;
-        int start=0;
+        
+        int maxCount=0;
         for(int i=0;i < nums.length;i++){
-            if(!set.contains(nums[i]-1)){
-                start=nums[i];
-                count = Math.max(count,howLong(set,start));
+            int count=1;
+            int x=nums[i];
+            if (!set.contains(x - 1)) { 
+                count = 1;
+                while (set.contains(x + 1)) {
+                    x++;  
+                    count++;
+                }
             }
-            
+            maxCount= Math.max(maxCount,count);
         }
-        return count;
+        return maxCount;
     }
 
-    private int howLong(HashSet<Integer> set, int start) {
-        if (!set.contains(start)) {
-            return 0;
-        }
-        return 1 + howLong(set, start + 1);
-    }
     
 }
