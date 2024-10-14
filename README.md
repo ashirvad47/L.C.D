@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/ashirvad47/L.C.D/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/ashirvad47/L.C.D/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ashirvad47/L.C.D/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 ## Backtracking
 |  |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0208-implement-trie-prefix-tree](https://github.com/ashirvad47/L.C.D/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/ashirvad47/L.C.D/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
 ## String
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ashirvad47/L.C.D/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
 ## Two Pointers
 |  |
@@ -149,10 +152,12 @@ A collection of LeetCode questions to ace the coding interview!
 | [0217-contains-duplicate](https://github.com/ashirvad47/L.C.D/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/ashirvad47/L.C.D/tree/master/0274-h-index) |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/ashirvad47/L.C.D/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 ## Math
 |  |
 | ------- |
@@ -237,4 +242,16 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ashirvad47/L.C.D/tree/master/0211-design-add-and-search-words-data-structure) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
