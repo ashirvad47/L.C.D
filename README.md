@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ashirvad47/L.C.D/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ashirvad47/L.C.D/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/ashirvad47/L.C.D/tree/master/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 | [0125-valid-palindrome](https://github.com/ashirvad47/L.C.D/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/ashirvad47/L.C.D/tree/master/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/ashirvad47/L.C.D/tree/master/0208-implement-trie-prefix-tree) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/ashirvad47/L.C.D/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ashirvad47/L.C.D/tree/master/0050-powx-n) |
+| [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
@@ -283,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/ashirvad47/L.C.D/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 ## Enumeration
 |  |
@@ -300,4 +303,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
