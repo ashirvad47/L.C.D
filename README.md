@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0042-trapping-rain-water](https://github.com/ashirvad47/L.C.D/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ashirvad47/L.C.D/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/ashirvad47/L.C.D/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ashirvad47/L.C.D/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
 | [0074-search-a-2d-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0074-search-a-2d-matrix) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0002-add-two-numbers](https://github.com/ashirvad47/L.C.D/tree/master/0002-add-two-numbers) |
 | [0012-integer-to-roman](https://github.com/ashirvad47/L.C.D/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/ashirvad47/L.C.D/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ashirvad47/L.C.D/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
@@ -290,6 +292,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/ashirvad47/L.C.D/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0074-search-a-2d-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0074-search-a-2d-matrix) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
