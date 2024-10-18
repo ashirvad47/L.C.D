@@ -9,15 +9,13 @@ class Solution {
                 count++;
             }
         }
-        boolean flag= true;
         for(int i=0; i < count/2;i++){
             if(ch[i]!=ch[count-1-i]){
-                flag= false;
-                break;
+                return false;
             }
         }
 
-        return flag;
+        return true;
 
         
     }
