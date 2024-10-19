@@ -1,32 +1,24 @@
 class Solution {
     public char findKthBit(int n, int k) {
-        if(k == 1){
+        if (k == 1) {
             return '0';
         }
-        char[] c = weirdSeq(n).toCharArray();
-
-        return c[k - 1];
+        return weirdSeq(n).charAt(k - 1);
     }
 
-    private String weirdSeq(int n){
-        if(n == 1){
+    private String weirdSeq(int n) {
+        if (n == 1) {
             return "0";
         }
-
         String prev = weirdSeq(n - 1);
-        String invertAndReverse = inANDre(prev);
-        return prev + "1" + invertAndReverse;
+        return prev + "1" + invertAndReverse(prev);
     }
 
-    private String inANDre(String str){
-        StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < str.length(); i++){
-            if(str.charAt(i) == '0') {
-                sb.append('1');
-            } else {
-                sb.append('0');
-            }
+    private String invertAndReverse(String str) {
+        StringBuilder sb = new StringBuilder(str).reverse();
+        for (int i = 0; i < sb.length(); i++) {
+            sb.setCharAt(i, sb.charAt(i) == '0' ? '1' : '0');
         }
-        return sb.reverse().toString();
+        return sb.toString();
     }
 }
