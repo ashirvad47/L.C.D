@@ -136,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 ## Counting
 |  |
 | ------- |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0002-add-two-numbers](https://github.com/ashirvad47/L.C.D/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/ashirvad47/L.C.D/tree/master/0050-powx-n) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 ## Stack
 |  |
 | ------- |
@@ -293,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
+| [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/ashirvad47/L.C.D/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 ## Enumeration
 |  |
