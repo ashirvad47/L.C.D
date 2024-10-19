@@ -37,11 +37,13 @@ A collection of LeetCode questions to ace the coding interview!
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 ## Backtracking
 |  |
 | ------- |
 | [0046-permutations](https://github.com/ashirvad47/L.C.D/tree/master/0046-permutations) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Database
 |  |
 | ------- |
@@ -295,6 +297,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Enumeration
 |  |
 | ------- |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 ## Matrix
 |  |
@@ -312,4 +315,5 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
+| [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 <!---LeetCode Topics End-->
