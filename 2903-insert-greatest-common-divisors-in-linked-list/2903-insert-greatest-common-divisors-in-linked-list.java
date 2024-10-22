@@ -24,11 +24,12 @@ class Solution {
     }
 
     private int findGCD(int a, int b) {
-        while (b != 0) {
-            int temp = b;
-            b = a % b;
-            a = temp;
+        if (a > b)
+            return findGCD(b, a);
+        if (b % a == 0) {
+            return a;
+        } else {
+            return findGCD(a, b % a);
         }
-        return a;
     }
 }
