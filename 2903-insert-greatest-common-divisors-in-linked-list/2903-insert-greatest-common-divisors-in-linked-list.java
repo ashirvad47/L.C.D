@@ -10,28 +10,25 @@
  */
 class Solution {
     public ListNode insertGreatestCommonDivisors(ListNode head) {
-        
-        ListNode pointer=head;
-        while(pointer.next!=null){
-            ListNode node = new ListNode();
-            int a=pointer.val;
-            int b=pointer.next.val;
-            node.val = findGCD(a,b);
-            node.next= pointer.next;
-            pointer.next= node;
-            pointer=node.next;
+        ListNode pointer = head;
+        while (pointer != null && pointer.next != null) {
+            int a = pointer.val;
+            int b = pointer.next.val;
+            ListNode node = new ListNode(findGCD(a, b)); 
+            node.next = pointer.next;
+            pointer.next = node;
+            
+            pointer = node.next;
         }
         return head;
     }
 
     private int findGCD(int a, int b) {
-        if (a > b)
-            return findGCD(b, a);
-        if (b % a == 0) {
-            return a;
-        } else {
-            return findGCD(a,b%a);
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
         }
-
+        return a;
     }
 }
