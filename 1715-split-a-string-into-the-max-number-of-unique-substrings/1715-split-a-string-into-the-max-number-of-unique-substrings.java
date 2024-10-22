@@ -1,6 +1,7 @@
 class Solution {
     public int maxUniqueSplit(String s) {
-        return backtrack(s, 0, new HashSet<>());
+        HashSet<String> set = new HashSet<>();
+        return backtrack(s, 0, set);
     }
     
     private int backtrack(String s, int start, HashSet<String> set) {
