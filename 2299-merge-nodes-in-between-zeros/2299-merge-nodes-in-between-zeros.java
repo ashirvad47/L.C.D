@@ -8,24 +8,20 @@
  * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+public class Solution {
     public ListNode mergeNodes(ListNode head) {
-        ListNode fast = head.next;
+        head = head.next;
         ListNode slow = head;
-
-        while(fast != null) {
-            slow.val += fast.val;
-            
-            if(fast.val == 0) {
-                if(fast.next != null) {
-                    slow.next = fast;
-                    slow = fast;
-                    slow.val = 0; 
-                } else {
-                    slow.next = null; 
-                }
+        while (slow != null) {
+            ListNode fast = slow;   
+            int sum = 0;
+            while (fast.val != 0) {
+                sum += fast.val;
+                fast = fast.next;
             }
-            fast = fast.next;
+            slow.val = sum;   
+            slow.next = fast.next;   
+            slow = slow.next;
         }
         return head;
     }
