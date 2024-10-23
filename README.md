@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/ashirvad47/L.C.D/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
+| [2812-find-the-maximum-achievable-number](https://github.com/ashirvad47/L.C.D/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 ## Dynamic Programming
 |  |
