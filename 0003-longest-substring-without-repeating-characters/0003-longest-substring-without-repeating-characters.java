@@ -1,20 +1,57 @@
+// class Solution {
+//     public int lengthOfLongestSubstring(String s) {
+//         HashMap<Character,Integer> map= new HashMap<>();
+//         int maxCount=0;
+//         for(int left=0,right=0; right <s.length();right++){
+//             if(!map.containsKey(s.charAt(right)) || map.get(s.charAt(right))<left){
+//                 map.put(s.charAt(right),right);
+//                 maxCount = Math.max(maxCount, right-left+1);
+//             }else{
+//                 left = map.get(s.charAt(right))+1;
+//                 map.put(s.charAt(right),right);
+//             }
+//         }
+
+//         return maxCount;
+//     }
+// }
+
+// class Solution {
+//     public int lengthOfLongestSubstring(String s) {
+//         int len=0;
+//         HashMap<Character,Integer> map = new HashMap<>();
+//         for(int i =0,j=0; i <  s.length();i++){
+//             if(!map.containsKey(s.charAt(i)) || map.get(s.charAt(i))< j){
+//                 map.put(s.charAt(i),i);
+//                 len = Math.max(len,i-j+1);
+//             }else{
+//                 j=map.get(s.charAt(i))+1;
+//                 map.put(s.charAt(i),i);
+//             }
+//         }
+//         return len;
+//     }
+// }
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        HashMap<Character,Integer> map= new HashMap<>();
-        int maxCount=0;
-        for(int left=0,right=0; right <s.length();right++){
-            if(!map.containsKey(s.charAt(right)) || map.get(s.charAt(right))<left){
-                map.put(s.charAt(right),right);
-                maxCount = Math.max(maxCount, right-left+1);
-            }else{
-                left = map.get(s.charAt(right))+1;
-                map.put(s.charAt(right),right);
+        int len = 0;
+        int i = 0, j = 0;
+        HashSet<Character> set = new HashSet<>();
+
+        while (i < s.length()) {
+            if (!set.contains(s.charAt(i))) {
+                set.add(s.charAt(i));
+                len = Math.max(len, i - j + 1); 
+                i++; 
+            } else {
+                set.remove(s.charAt(j));
+                j++;
             }
         }
-
-        return maxCount;
+        return len;
     }
 }
+
 
 
 // The map stores characters as keys and their indices as values.
