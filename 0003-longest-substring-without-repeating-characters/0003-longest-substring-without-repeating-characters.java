@@ -16,36 +16,17 @@
 //     }
 // }
 
-// class Solution {
-//     public int lengthOfLongestSubstring(String s) {
-//         int len=0;
-//         HashMap<Character,Integer> map = new HashMap<>();
-//         for(int i =0,j=0; i <  s.length();i++){
-//             if(!map.containsKey(s.charAt(i)) || map.get(s.charAt(i))< j){
-//                 map.put(s.charAt(i),i);
-//                 len = Math.max(len,i-j+1);
-//             }else{
-//                 j=map.get(s.charAt(i))+1;
-//                 map.put(s.charAt(i),i);
-//             }
-//         }
-//         return len;
-//     }
-// }
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int len = 0;
-        int i = 0, j = 0;
-        HashSet<Character> set = new HashSet<>();
-
-        while (i < s.length()) {
-            if (!set.contains(s.charAt(i))) {
-                set.add(s.charAt(i));
-                len = Math.max(len, i - j + 1); 
-                i++; 
-            } else {
-                set.remove(s.charAt(j));
-                j++;
+        int len=0;
+        HashMap<Character,Integer> map = new HashMap<>();
+        for(int i =0,j=0; i <  s.length();i++){
+            if(!map.containsKey(s.charAt(i)) || map.get(s.charAt(i))< j){
+                map.put(s.charAt(i),i);
+                len = Math.max(len,i-j+1);
+            }else{
+                j=map.get(s.charAt(i))+1;
+                map.put(s.charAt(i),i);
             }
         }
         return len;
@@ -62,3 +43,26 @@ class Solution {
 // If the character is repeating within the current substring, we move the left pointer to the next position after the last occurrence of the character.
 // We update the index of the current character in the charMap and continue the iteration.
 // At the end, we return the maxLength as the length of the longest substring without repeating characters.
+
+
+// class Solution {
+//     public int lengthOfLongestSubstring(String s) {
+//         int len = 0;
+//         int i = 0, j = 0;
+//         HashSet<Character> set = new HashSet<>();
+
+//         while (i < s.length()) {
+//             if (!set.contains(s.charAt(i))) {
+//                 set.add(s.charAt(i));
+//                 len = Math.max(len, i - j + 1); 
+//                 i++; 
+//             } else {
+//                 set.remove(s.charAt(j));
+//                 j++;
+//             }
+//         }
+//         return len;
+//     }
+// }
+
+
