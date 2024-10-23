@@ -13,16 +13,16 @@ class Solution {
         ListNode fast = head.next;
         ListNode slow = head;
 
-        while (fast.next != null) {
+        while(fast != null) {
             slow.val += fast.val;
-
-            if (fast.next.val == 0) {
-                if (fast.next.next != null) {
-                    slow.next = fast.next;
-                    slow = fast.next;
-                    slow.val = 0;
+            
+            if(fast.val == 0) {
+                if(fast.next != null) {
+                    slow.next = fast;
+                    slow = fast;
+                    slow.val = 0; 
                 } else {
-                    slow.next = null;
+                    slow.next = null; 
                 }
             }
             fast = fast.next;
