@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2058-concatenation-of-array](https://github.com/ashirvad47/L.C.D/tree/master/2058-concatenation-of-array) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Backtracking
 |  |
 | ------- |
@@ -301,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0211-design-add-and-search-words-data-structure](https://github.com/ashirvad47/L.C.D/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/ashirvad47/L.C.D/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Heap (Priority Queue)
 |  |
@@ -346,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/ashirvad47/L.C.D/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Bit Manipulation
@@ -357,12 +360,14 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/ashirvad47/L.C.D/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Binary Tree
 |  |
 | ------- |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/ashirvad47/L.C.D/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Number Theory
