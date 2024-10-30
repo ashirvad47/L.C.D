@@ -10,27 +10,23 @@
  */
 class Solution {
     public ListNode middleNode(ListNode head) {
+        if (head == null || head.next == null) return head;
+        
         ListNode pointer = head;
-
-        int count=0;
-
-        while(pointer.next!=null){
+        int count = 1; 
+        
+        while (pointer.next != null) {
             count++;
-            pointer=pointer.next;
+            pointer = pointer.next;
         }
-
-        ListNode midpointer = head;
-        int mid=count/2;
-        if(count%2==0){
-            for(int i =0;i < mid;i++){
-                midpointer = midpointer.next;
-            }
-            return midpointer;
-        }else{
-            for(int i =0;i < mid;i++){
-                midpointer = midpointer.next;
-            }
-            return midpointer.next;
+        
+        int mid = count / 2;
+        
+        ListNode midPointer = head;
+        for (int i = 0; i < mid; i++) {
+            midPointer = midPointer.next;
         }
+        
+        return midPointer;
     }
 }
