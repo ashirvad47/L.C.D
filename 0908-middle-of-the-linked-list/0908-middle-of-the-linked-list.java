@@ -13,9 +13,9 @@ class Solution {
         if (head == null || head.next == null) return head;
         
         ListNode pointer = head;
-        int count = 1; 
+        int count = 0; 
         
-        while (pointer.next != null) {
+        while (pointer != null) {
             count++;
             pointer = pointer.next;
         }
