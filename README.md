@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
+| [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0134-gas-station](https://github.com/ashirvad47/L.C.D/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ashirvad47/L.C.D/tree/master/0135-candy) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
+| [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 ## Counting Sort
 |  |
@@ -327,6 +329,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
+| [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
 ## Bucket Sort
 |  |
 | ------- |
