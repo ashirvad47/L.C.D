@@ -235,6 +235,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0119-pascals-triangle-ii](https://github.com/ashirvad47/L.C.D/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ashirvad47/L.C.D/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ashirvad47/L.C.D/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0338-counting-bits](https://github.com/ashirvad47/L.C.D/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -385,6 +386,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
+| [0338-counting-bits](https://github.com/ashirvad47/L.C.D/tree/master/0338-counting-bits) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Tree
 |  |
