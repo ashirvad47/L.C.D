@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
+| [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0211-design-add-and-search-words-data-structure](https://github.com/ashirvad47/L.C.D/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
+| [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
+| [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/0908-middle-of-the-linked-list) |
 ## Sorting
 |  |
@@ -325,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ashirvad47/L.C.D/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/ashirvad47/L.C.D/tree/master/0209-minimum-size-subarray-sum) |
+| [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 ## Depth-First Search
 |  |
 | ------- |
