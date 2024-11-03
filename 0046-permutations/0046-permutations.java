@@ -18,6 +18,8 @@ class Solution {
                 backTrack(result, tempList, nums);
                 tempList.remove(tempList.size() - 1);
 
+            }else{
+                continue;
             }
         }
         return;
