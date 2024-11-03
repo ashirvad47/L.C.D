@@ -5,7 +5,7 @@ class Solution {
         backTrack (result, new ArrayList<>(), nums);
         return result;
     }
-static void backTrack(List<List<Integer>> result, List<Integer> tempList, int []nums){
+    static void backTrack(List<List<Integer>> result, List<Integer> tempList, int []nums){
 
         if (tempList.size() == nums.length) {
             result.add(new ArrayList<>(tempList)); 
