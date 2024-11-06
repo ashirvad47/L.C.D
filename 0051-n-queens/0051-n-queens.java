@@ -1,37 +1,64 @@
-public class Solution {
-    private Set<Integer> col = new HashSet<Integer>();
-    private Set<Integer> diag1 = new HashSet<Integer>();
-    private Set<Integer> diag2 = new HashSet<Integer>();
-    
+class Solution {
     public List<List<String>> solveNQueens(int n) {
-        List<List<String>> res = new ArrayList<>();
-        dfs(res,new ArrayList<String>(), 0, n);
-        return res;
+        List<List<String>> allCases = new ArrayList<>();
+        char[][] board = new char[n][n];
+
+        helper(allCases, board, 0);
+
+        return allCases;
     }
-    private void dfs(List<List<String>> res, List<String> list, int row, int n){
-        if (row == n){
-            res.add(new ArrayList<String>(list));
+
+    public void helper(List<List<String>> allBoards, char[][] board, int col) {
+        if (col == board.length) {
+            saveBoard(allBoards, board);
             return;
         }
-        for (int i = 0; i < n; i++){
-            if (col.contains(i) || diag1.contains(row + i) || diag2.contains(row - i)) continue;
-            
-            char[] charArray = new char[n];
-            Arrays.fill(charArray, '.');
-            charArray[i] = 'Q';
-            String rowString = new String(charArray);
-            
-            list.add(rowString);
-            col.add(i);
-            diag1.add(row + i);
-            diag2.add(row - i);
-            
-            dfs(res, list, row + 1, n);
-            
-            list.remove(list.size() - 1);
-            col.remove(i);
-            diag1.remove(row + i);
-            diag2.remove(row - i);
+
+        for (int row = 0; row < board.length; row++) {
+            if (isSafe(row, col, board)) {
+                board[row][col] = 'Q';
+                helper(allBoards, board, col + 1);
+                board[row][col] = '.';
+            }
+
         }
     }
+
+    public boolean isSafe(int row, int col, char[][] board) {
+        // Check left side of the row
+        for (int j = 0; j < col; j++) {
+            if (board[row][j] == 'Q')
+                return false;
+        }
+
+        // Check upper-left diagonal
+        for (int i = row, j = col; i >= 0 && j >= 0; i--, j--) {
+            if (board[i][j] == 'Q')
+                return false;
+        }
+
+        // Check lower-left diagonal
+        for (int i = row, j = col; i < board.length && j >= 0; i++, j--) {
+            if (board[i][j] == 'Q')
+                return false;
+        }
+
+        // No need to check other diagonals on right side or vertically
+
+        return true;
+    }
+
+    public void saveBoard(List<List<String>> allBoards, char[][] board) {
+        List<String> newBoard = new ArrayList<>();
+
+        for (int i = 0; i < board.length; i++) {
+            StringBuilder row = new StringBuilder();
+            for (int j = 0; j < board[0].length; j++) {
+                row.append(board[i][j] == 'Q' ? 'Q' : '.');
+            }
+            newBoard.add(row.toString());
+        }
+        allBoards.add(newBoard);
+    }
+
 }
