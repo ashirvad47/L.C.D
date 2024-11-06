@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0046-permutations](https://github.com/ashirvad47/L.C.D/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ashirvad47/L.C.D/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/ashirvad47/L.C.D/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/ashirvad47/L.C.D/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0074-search-a-2d-matrix) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0046-permutations](https://github.com/ashirvad47/L.C.D/tree/master/0046-permutations) |
+| [0051-n-queens](https://github.com/ashirvad47/L.C.D/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ashirvad47/L.C.D/tree/master/0090-subsets-ii) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
