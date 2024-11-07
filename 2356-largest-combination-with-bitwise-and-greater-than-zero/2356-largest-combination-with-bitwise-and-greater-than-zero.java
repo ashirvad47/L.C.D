@@ -1,15 +1,16 @@
-public class Solution {
+class Solution {
+
     public int largestCombination(int[] candidates) {
-        int maxCombination = 0;
-        for (int bit = 0; bit < 32; bit++) {
-            int count = 0;
+        int maxCount = 0; // Variable to track the maximum count of set bits.
+        for (int i = 0; i < 24; i++) {
+            int count = 0; // Count of numbers with the i-th bit set.
             for (int num : candidates) {
-                if ((num & (1 << bit)) != 0) {
+                if ((num & (1 << i)) != 0) { // Check if the i-th bit is set.
                     count++;
                 }
             }
-            maxCombination = Math.max(maxCombination, count);
+            maxCount = Math.max(maxCount, count); // Update the maximum count.
         }
-        return maxCombination;
+        return maxCount;
     }
 }
