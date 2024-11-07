@@ -1,20 +1,15 @@
-class Solution {
+public class Solution {
     public int largestCombination(int[] candidates) {
-        int[] bitCount = new int[31];  
-        
-        for (int num : candidates) {
-            for (int i = 0; i < 31; i++) {
-                if ((num & (1 << i)) != 0) {
-                    bitCount[i]++;
+        int maxCombination = 0;
+        for (int bit = 0; bit < 32; bit++) {
+            int count = 0;
+            for (int num : candidates) {
+                if ((num & (1 << bit)) != 0) {
+                    count++;
                 }
             }
+            maxCombination = Math.max(maxCombination, count);
         }
-        
-        int maxCount = 0;
-        for (int count : bitCount) {
-            maxCount = Math.max(maxCount, count);
-        }
-        
-        return maxCount;
+        return maxCombination;
     }
 }
