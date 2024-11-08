@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0128-longest-consecutive-sequence](https://github.com/ashirvad47/L.C.D/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/ashirvad47/L.C.D/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ashirvad47/L.C.D/tree/master/0135-candy) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ashirvad47/L.C.D/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ashirvad47/L.C.D/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0066-plus-one](https://github.com/ashirvad47/L.C.D/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/ashirvad47/L.C.D/tree/master/0070-climbing-stairs) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ashirvad47/L.C.D/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
@@ -330,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0020-valid-parentheses](https://github.com/ashirvad47/L.C.D/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ashirvad47/L.C.D/tree/master/0042-trapping-rain-water) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/ashirvad47/L.C.D/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ashirvad47/L.C.D/tree/master/0155-min-stack) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
 ## Monotonic Stack
