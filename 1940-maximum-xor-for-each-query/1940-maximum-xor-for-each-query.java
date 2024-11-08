@@ -1,29 +1,21 @@
-class Solution {
+public class Solution {
     public int[] getMaximumXor(int[] nums, int maximumBit) {
         int n = nums.length;
-        int maxXorValue = (1 << maximumBit) - 1;
-        int totalXor = 0;
+        int maxVal = (1 << maximumBit) - 1;  // Maximum possible value with `maximumBit` bits 2^n-1
+        int[] result = new int[n];
+        int xor = 0;
         
-        // First calculate the total XOR
+        // Compute the prefix XOR for the entire array
         for (int num : nums) {
-            totalXor ^= num;
+            xor ^= num;
         }
-        
-        // Reverse the array in-place
-        for (int i = 0; i < n/2; i++) {
-            int temp = nums[i];
-            nums[i] = nums[n-1-i];
-            nums[n-1-i] = temp;
-        }
-        
-        // Now process each element
-        int runningXor = totalXor;
+        xor^=maxVal;
+        // Process each query in reverse order
         for (int i = 0; i < n; i++) {
-            int original = nums[i];  // Save original value
-            nums[i] = runningXor ^ maxXorValue;  // Calculate result
-            runningXor ^= original;  // Remove this number's contribution for next iteration
+            result[i] = xor ;  // Maximum XOR for the current prefix
+            xor ^= nums[n - 1 - i];    // Remove the last element's effect for the next query
         }
         
-        return nums;
+        return result;
     }
 }
