@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ashirvad47/L.C.D/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/ashirvad47/L.C.D/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/ashirvad47/L.C.D/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/ashirvad47/L.C.D/tree/master/0052-n-queens-ii) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/ashirvad47/L.C.D/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/ashirvad47/L.C.D/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/ashirvad47/L.C.D/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/ashirvad47/L.C.D/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/ashirvad47/L.C.D/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/ashirvad47/L.C.D/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/ashirvad47/L.C.D/tree/master/0058-length-of-last-word) |
@@ -250,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ashirvad47/L.C.D/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ashirvad47/L.C.D/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ashirvad47/L.C.D/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
