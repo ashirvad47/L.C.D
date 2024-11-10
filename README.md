@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0054-spiral-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/ashirvad47/L.C.D/tree/master/0066-plus-one) |
+| [0073-set-matrix-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/ashirvad47/L.C.D/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0078-subsets) |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/ashirvad47/L.C.D/tree/master/0013-roman-to-integer) |
 | [0036-valid-sudoku](https://github.com/ashirvad47/L.C.D/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/ashirvad47/L.C.D/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/ashirvad47/L.C.D/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/ashirvad47/L.C.D/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/ashirvad47/L.C.D/tree/master/0208-implement-trie-prefix-tree) |
@@ -406,6 +408,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0036-valid-sudoku](https://github.com/ashirvad47/L.C.D/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0054-spiral-matrix) |
+| [0073-set-matrix-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0074-search-a-2d-matrix) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
