@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ashirvad47/L.C.D/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/ashirvad47/L.C.D/tree/master/0051-n-queens) |
+| [0054-spiral-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/ashirvad47/L.C.D/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0074-search-a-2d-matrix) |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2048-build-array-from-permutation](https://github.com/ashirvad47/L.C.D/tree/master/2048-build-array-from-permutation) |
@@ -403,6 +405,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0036-valid-sudoku](https://github.com/ashirvad47/L.C.D/tree/master/0036-valid-sudoku) |
 | [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0054-spiral-matrix) |
 | [0074-search-a-2d-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0074-search-a-2d-matrix) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
