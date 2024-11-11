@@ -1,21 +1,16 @@
 class Solution {
     public boolean primeSubOperation(int[] nums) {
-        if (isSorted(nums)) {
-            return true;
-        }
-
         for (int i = 0; i < nums.length; i++) {
-            int maxPossiblePrime = nums[i] - (i > 0 ? nums[i-1] : 0) - 1;
-            
-            if (maxPossiblePrime <= 1) {
-                continue;
-            }
+            for (int j = nums[i] - 1; j >= 1 ; j--) { // stricktly lesser than nums[i]
+                if (isPrime(j)) {
+                    int temp = nums[i]-j;
 
-            int primeToSubtract = findLargestPrime(maxPossiblePrime);
-            if (primeToSubtract > 0) {
-                nums[i] -= primeToSubtract;
+                    if(i==0 || temp> nums[i-1]){ //i==0 to prevent index out of bounds
+                        nums[i]=temp;
+                        break;
+                    }
+                }
             }
-
             if (isSorted(nums)) {
                 return true;
             }
@@ -23,34 +18,23 @@ class Solution {
         return false;
     }
 
-    private int findLargestPrime(int n) {
-        for (int i = n; i >= 2; i--) {
-            if (isPrime(i)) {
-                return i;
-            }
+    public static boolean isPrime(int n) {
+        if (n <= 1)
+            return false;
+        for (int i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0)
+                return false;
         }
-        return 0;
+        return true;
     }
 
-    private boolean isPrime(int n) {
-        if (n <= 1) return false;
-        if (n <= 3) return true;
-        if (n % 2 == 0 || n % 3 == 0) return false;
-
-        for (int i = 5; i * i <= n; i += 6) {
-            if (n % i == 0 || n % (i + 2) == 0) {
+    public static boolean isSorted(int[] nums) {
+        for (int i = 0; i < nums.length - 1; i++) {
+            if (nums[i] >= nums[i + 1]) {
                 return false;
             }
         }
         return true;
     }
 
-    private boolean isSorted(int[] nums) {
-        for (int i = 1; i < nums.length; i++) {
-            if (nums[i] <= nums[i-1]) {
-                return false;
-            }
-        }
-        return true;
-    }
 }
