@@ -1,19 +1,21 @@
 class Solution {
     public boolean primeSubOperation(int[] nums) {
-        boolean flag[] = new boolean[nums.length];
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = nums[i] - 1; j >= 1 ; j--) { // stricktly lesser than nums[i]
-                if (isPrime(j) /*&& (i == 0 || j > nums[i - 1])*/) {
-                    int temp = nums[i]-j;
+        if (isSorted(nums)) {
+            return true;
+        }
 
-                    if(i==0 || temp> nums[i-1]){
-                        nums[i]=temp;
-                        break;
-                    }
-                    // nums[i] -= j;
-                    // break;
-                }
+        for (int i = 0; i < nums.length; i++) {
+            int maxPossiblePrime = nums[i] - (i > 0 ? nums[i-1] : 0) - 1;
+            
+            if (maxPossiblePrime <= 1) {
+                continue;
             }
+
+            int primeToSubtract = findLargestPrime(maxPossiblePrime);
+            if (primeToSubtract > 0) {
+                nums[i] -= primeToSubtract;
+            }
+
             if (isSorted(nums)) {
                 return true;
             }
@@ -21,23 +23,34 @@ class Solution {
         return false;
     }
 
-    public static boolean isPrime(int n) {
-        if (n <= 1)
-            return false;
-        for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0)
-                return false;
+    private int findLargestPrime(int n) {
+        for (int i = n; i >= 2; i--) {
+            if (isPrime(i)) {
+                return i;
+            }
         }
-        return true;
+        return 0;
     }
 
-    public static boolean isSorted(int[] nums) {
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] >= nums[i + 1]) {
+    private boolean isPrime(int n) {
+        if (n <= 1) return false;
+        if (n <= 3) return true;
+        if (n % 2 == 0 || n % 3 == 0) return false;
+
+        for (int i = 5; i * i <= n; i += 6) {
+            if (n % i == 0 || n % (i + 2) == 0) {
                 return false;
             }
         }
         return true;
     }
 
+    private boolean isSorted(int[] nums) {
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] <= nums[i-1]) {
+                return false;
+            }
+        }
+        return true;
+    }
 }
