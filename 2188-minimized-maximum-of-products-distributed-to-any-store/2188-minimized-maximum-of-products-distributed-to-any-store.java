@@ -1,22 +1,33 @@
-class Solution {
+public class Solution {
     public int minimizedMaximum(int n, int[] quantities) {
-        int low = 1, high = Integer.MIN_VALUE, res = 0;
+        int left = 1;
+        int right = 0;
+        
+        // Find the maximum quantity in quantities array as the initial right bound
         for (int quantity : quantities) {
-            high = Math.max(high, quantity);
+            right = Math.max(right, quantity);
         }
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
-            int storesNeeded = 0;
-            for (int quantity : quantities) {
-                storesNeeded += Math.ceil((double) quantity / mid);
-            }
-            if (storesNeeded <= n) {
-                res = mid;
-                high = mid - 1;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (canDistribute(mid, n, quantities)) {
+                right = mid;  // Try to minimize x further
             } else {
-                low = mid + 1;
+                left = mid + 1;  // Increase x
             }
         }
-        return res;
+        return left;  // This is the minimum possible x
+    }
+
+    // Optimized distribution check
+    private boolean canDistribute(int x, int n, int[] quantities) {
+        int storesNeeded = 0;
+        for (int quantity : quantities) {
+            storesNeeded += (quantity + x - 1) / x;  // Efficient calculation of Math.ceil(quantity / x)
+            if (storesNeeded > n) {
+                return false;  // Not enough stores to handle this distribution
+            }
+        }
+        return true;
     }
 }
