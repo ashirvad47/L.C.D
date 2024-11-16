@@ -1,28 +1,24 @@
 class Solution {
     public int[] resultsArray(int[] nums, int k) {
-        int res[] = new int [nums.length-k+1];
+        int n = nums.length - k + 1; // Precompute length of result array
+        int[] res = new int[n];
 
-        int left=0;
-        int right= left+k-1;
-
-        while(left<nums.length-k+1){
-            if(isSortedAndConsecutive(nums,left,right)){
-                res[left] = nums[right];
-            }else{
-                res[left] =-1;
+        for (int left = 0; left < n; left++) {
+            if (isSortedAndConsecutive(nums, left, left + k - 1)) {
+                res[left] = nums[left + k - 1]; // Use `right = left + k - 1`
+            } else {
+                res[left] = -1;
             }
-
-            left++;
-            right++;
         }
         return res;
-
     }
 
-    public boolean isSortedAndConsecutive(int nums[],int left,int right){
-        for(int i =left;i<right;i++){
-            if(nums[i]>=nums[i+1] || nums[i]+1 != nums[i+1]) return false;
+    public boolean isSortedAndConsecutive(int[] nums, int left, int right) {
+        for (int i = left; i < right; i++) {
+            if (nums[i] + 1 != nums[i + 1]) { // Check consecutive
+                return false;
+            }
         }
-        return true;
+        return true; // All elements are sorted and consecutive
     }
 }
