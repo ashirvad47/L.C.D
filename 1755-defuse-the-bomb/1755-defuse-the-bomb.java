@@ -6,21 +6,21 @@ class Solution {
         if (k > 0) {
             for (int i = 0; i < n; i++) {
                 for (int j = i + 1; j <= i + k; j++) {
-                    int temp = (j % n); // Corrected index calculation
+                    int temp = (j % n);
                     res[i] += code[temp];
                 }
             }
         } else if (k < 0) {
             for (int i = n - 1; i >= 0; i--) {
-                for (int j = i - 1; j >= i + k; j--) { // Corrected loop direction
-                    int temp = (j + n) % n; // Corrected index calculation
+                for (int j = i - 1; j >= i + k; j--) { 
+                    int temp = (j + n) % n; 
                     res[i] += code[temp];
                 }
             }
-        } else {
-            return res; // Return the initialized zero array for k == 0
+        } else if(k==0){
+            return res; 
         }
 
-        return res; // Ensure a return statement outside the conditionals
+        return res;
     }
 }
