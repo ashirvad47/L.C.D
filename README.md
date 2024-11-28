@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0208-implement-trie-prefix-tree](https://github.com/ashirvad47/L.C.D/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/ashirvad47/L.C.D/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/ashirvad47/L.C.D/tree/master/0290-word-pattern) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0208-implement-trie-prefix-tree](https://github.com/ashirvad47/L.C.D/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ashirvad47/L.C.D/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
+| [0290-word-pattern](https://github.com/ashirvad47/L.C.D/tree/master/0290-word-pattern) |
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
