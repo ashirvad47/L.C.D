@@ -1,4 +1,4 @@
-// Floyd’s Tortoise and Hare algorithm
+// Floyd’s Tortoise and Hare algorithm(with early exit hence better)
 
 class Solution {
     public boolean isHappy(int n) {
@@ -26,6 +26,36 @@ class Solution {
         return n;
     }
 }
+
+// Floyd’s Tortoise and Hare algorithm
+// class Solution {
+//     public boolean isHappy(int n) {
+//         // Special case for early return
+//         if (n == 1) return true;
+        
+//         int slow = n;
+//         int fast = n;
+        
+//         do {
+//             slow = sumSquare(slow); // Slow pointer moves 1 step
+//             fast = sumSquare(sumSquare(fast)); // Fast pointer moves 2 steps
+//         } while (slow != fast); // Continue until both pointers meet
+        
+//         // After the loop ends, check if the cycle ends at 1
+//         return slow == 1; // If slow reaches 1, the number is happy
+//     }
+
+//     public int sumSquare(int num) {
+//         int sum = 0;
+//         while (num > 0) {
+//             int digit = num % 10;
+//             sum += digit * digit;
+//             num /= 10;
+//         }
+//         return sum;
+//     }
+// }
+
 
 
 // class Solution {
