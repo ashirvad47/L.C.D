@@ -11,7 +11,7 @@ class Solution {
                 end = nums[i];
             }
 
-            ls.add(start == end ? String.valueOf(start) : start + "->" + end);
+            ls.add(start == end ? ""+start : start + "->" + end);
 
         }
 
