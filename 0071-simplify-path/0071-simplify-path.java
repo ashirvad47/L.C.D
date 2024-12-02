@@ -2,21 +2,26 @@ class Solution {
     public String simplifyPath(String path) {
         String[] str = path.split("/");
 
-        Stack<String> st = new Stack<>();
+        List<String> result = new ArrayList<>();
 
         for (String s : str) {
-            // Skip consecutive "/" or "."
-            if ( ((!st.isEmpty() && st.peek().equals("/")) && s.equals("/") ) || s.equals(".")) continue;
-            // Handle ".."
+            if (s.equals("") || s.equals(".")) {
+                // Skip empty parts and current directory references
+                continue;
+            }
+
             if (s.equals("..")) {
-                if (!st.isEmpty()) st.pop(); // Pop once for the previous directory
-            } else if (!s.equals("")) {
-                // Push valid directory names
-                st.push(s);
+                // Pop the last directory if possible
+                if (!result.isEmpty()) {
+                    result.remove(result.size() - 1);
+                }
+            } else {
+                // Add valid directory to the result
+                result.add(s);
             }
         }
 
-        // Join the stack content to build the result
-        return "/" + String.join("/", st);
+        // Build the simplified path by joining the list elements
+        return "/" + String.join("/", result);
     }
 }
