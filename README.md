@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0289-game-of-life](https://github.com/ashirvad47/L.C.D/tree/master/0289-game-of-life) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -252,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
 | [0274-h-index](https://github.com/ashirvad47/L.C.D/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -315,6 +317,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ashirvad47/L.C.D/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/ashirvad47/L.C.D/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ashirvad47/L.C.D/tree/master/0135-candy) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
 | [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
