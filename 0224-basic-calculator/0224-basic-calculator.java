@@ -1,30 +1,23 @@
 class Solution {
+    int idx; // this index traverse the string in one pass, between different level of recursion
     public int calculate(String s) {
-        
-	int len = s.length(), sign = 1, result = 0;
-	Stack<Integer> stack = new Stack<Integer>();
-	for (int i = 0; i < len; i++) {
-		if (Character.isDigit(s.charAt(i))) {
-			int sum = s.charAt(i) - '0';
-			while (i + 1 < len && Character.isDigit(s.charAt(i + 1))) {
-				sum = sum * 10 + s.charAt(i + 1) - '0';
-				i++;
-			}
-			result += sum * sign;
-		} else if (s.charAt(i) == '+')
-			sign = 1;
-		else if (s.charAt(i) == '-')
-			sign = -1;
-		else if (s.charAt(i) == '(') {
-			stack.push(result);
-			stack.push(sign);
-			result = 0;
-			sign = 1;
-		} else if (s.charAt(i) == ')') {
-			result = result * stack.pop() + stack.pop();
-		}
-
-	}
-	return result;
-}
+        idx = 0; // Initialization should be here
+        return calc(s);
+    }
+    
+    private int calc(String s) {
+        int res = 0, num = 0, sign = 1;
+        while (idx < s.length()) {
+            char c = s.charAt(idx++);
+            if (c >= '0' && c <= '9') num = num * 10 + c - '0';
+            else if (c == '(') num = calc(s); // ( is start of a new sub-problem, Let recursion solve the sub-problem
+            else if (c == ')') return res + sign * num;
+            else if (c == '+' || c == '-') { // only when we meet a new sign, we know a while number has been read
+                res += sign * num;
+                num = 0;
+                sign = c == '-' ? -1 : 1;
+            }
+        }
+        return res + sign * num; // last number is not processed yet
+    }
 }
