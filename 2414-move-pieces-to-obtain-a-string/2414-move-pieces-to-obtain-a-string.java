@@ -1,28 +1,23 @@
 class Solution {
     public boolean canChange(String start, String target) {
+        char[] startArr = start.toCharArray();
+        char[] targetArr = target.toCharArray();
         int i = 0, j = 0;
 
-        while (i <= start.length() && j <= target.length()) {
-            while (i < start.length() && start.charAt(i) == '_')
-                i++;
-            while (j < target.length() && target.charAt(j) == '_')
-                j++;
+        while (i <= startArr.length && j <= targetArr.length) {
+            while (i < startArr.length && startArr[i] == '_') i++;
+            while (j < targetArr.length && targetArr[j] == '_') j++;
 
-            if (i == start.length() || j == target.length())
-                return i == start.length() && j == target.length();
+            if (i == startArr.length || j == targetArr.length)
+                return i == startArr.length && j == targetArr.length;
 
-            if (start.charAt(i) != target.charAt(j)) {
-                return false;
-            } else {
-                if (start.charAt(i) == 'L' && i < j)
-                    return false;
-                if (start.charAt(i) == 'R' && i > j)
-                    return false;
+            if (startArr[i] != targetArr[j]) return false;
 
-                i++;
-                j++;
-            }
+            if (startArr[i] == 'L' && i < j) return false;
+            if (startArr[i] == 'R' && i > j) return false;
 
+            i++;
+            j++;
         }
 
         return true;
