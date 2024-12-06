@@ -10,7 +10,7 @@ class Solution {
         int count =0;
         int sum=0;
         for(int i =1; i<=n;i++){
-            if(!set.contains(i)) {
+            if(!set.contains(i) && sum<= maxSum) {
                 sum+=i;
                 if(sum<= maxSum) count++;
             }
