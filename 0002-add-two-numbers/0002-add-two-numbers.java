@@ -40,7 +40,8 @@ class Solution {
     }
 
     public void addNode(ListNode l3, int val) {
-        l3.next = new ListNode(val);
-           
+        
+        ListNode node = new ListNode(val);
+        l3.next = node;
     }
 }
