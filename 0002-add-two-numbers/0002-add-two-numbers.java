@@ -27,20 +27,20 @@ class Solution {
             l3 = l3.next;           
                                 
 
-            if (l1 != null) l1 = l1.next;        // Move to the next node in l1, if possible
-            if (l2 != null) l2 = l2.next;        // Move to the next node in l2, if possible
+            if (l1 != null) l1 = l1.next;
+            if (l2 != null) l2 = l2.next;
         }
 
-        // Handle remaining carry outside the loop
         if (carry > 0) {
             addNode(l3, carry);
+            l3 = l3.next; 
         }
 
-        return head.next; // Return the result list starting from the first real node
+        return head.next;
     }
 
     public void addNode(ListNode l3, int val) {
-        l3.next = new ListNode(val); // Create a new node with the given value and link it
+        l3.next = new ListNode(val);
            
     }
 }
