@@ -394,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ashirvad47/L.C.D/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/ashirvad47/L.C.D/tree/master/0021-merge-two-sorted-lists) |
 | [0050-powx-n](https://github.com/ashirvad47/L.C.D/tree/master/0050-powx-n) |
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/ashirvad47/L.C.D/tree/master/0002-add-two-numbers) |
+| [0021-merge-two-sorted-lists](https://github.com/ashirvad47/L.C.D/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/ashirvad47/L.C.D/tree/master/0141-linked-list-cycle) |
 | [0908-middle-of-the-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/0908-middle-of-the-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/ashirvad47/L.C.D/tree/master/2299-merge-nodes-in-between-zeros) |
