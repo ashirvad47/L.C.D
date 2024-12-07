@@ -23,8 +23,12 @@ class Solution {
     private boolean canAchievePenalty(int[] nums, int penalty, int maxOperations) {
         int operations = 0;
         for (int num : nums) {
-            operations += (num - 1) / penalty;
-            if (operations > maxOperations) return false;
+            if (num > penalty) {
+                operations += (num - 1) / penalty; 
+                if (operations > maxOperations) {
+                    return false; // early termination
+                }
+            }
         }
         return true;
     }
