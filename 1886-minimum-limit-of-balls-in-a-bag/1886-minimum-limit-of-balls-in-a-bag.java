@@ -13,7 +13,7 @@ class Solution {
     }
 
     private int getMax(int[] nums) {
-        int max = Integer.MIN_VALUE;
+        int max = 0;
         for (int num : nums) {
             max = Math.max(max, num);
         }
