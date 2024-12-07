@@ -13,11 +13,13 @@ class Solution {
     }
 
     private int getMax(int[] nums) {
-        int max = 0;
-        for (int num : nums) {
-            max = Math.max(max, num);
-        }
-        return max;
+        // int max = Integer.MIN_VALUE;
+        // for (int num : nums) {
+        //     max = Math.max(max, num);
+        // }
+        // return max;
+        Arrays.sort(nums);
+        return nums[nums.length-1];
     }
 
     private boolean canAchievePenalty(int[] nums, int penalty, int maxOperations) {
