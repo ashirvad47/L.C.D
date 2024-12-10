@@ -38,16 +38,16 @@ class Solution {
 
         // Step 3: Deweaving the list
         pointer = head;
-        Node copyHead = head.next; // Reference to the head of the copied list
+        Node copyHead = head.next; 
         while (pointer != null) {
-            Node copy = pointer.next; // Copy node
-            pointer.next = copy.next; // Restore original node's next pointer
-            if (copy.next != null) {
-                copy.next = copy.next.next; // Adjust copied node's next pointer
+            Node copy = pointer.next;
+            pointer.next = copy.next; 
+            if (copy.next != null) {//this condition prevents pointer.next from being null, think it ache se
+                copy.next = copy.next.next;
             }
-            pointer = pointer.next; // Move to the next original node
+            pointer = pointer.next; 
         }
 
-        return copyHead; // Return the head of the copied list
+        return copyHead; 
     }
 }
