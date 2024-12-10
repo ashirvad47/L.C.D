@@ -5,7 +5,7 @@ class Solution {
         ListNode dummy = new ListNode(0);
         dummy.next = head;
         ListNode pointer = head;
-        ListNode back = null; // for safety cases when n = 1
+        ListNode back = null; // for safety cases when left = 1
         
         for(int i = 1; i < left; i++){
             back = pointer;
@@ -28,10 +28,11 @@ class Solution {
         if(back != null){
             back.next = prev;
         } else {
-            dummy.next = prev;
+            pointer.next = curr;
+            return prev;
         }
 
         pointer.next = curr;
-        return dummy.next;
+        return head;
     }
 }
