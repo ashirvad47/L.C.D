@@ -1,18 +1,28 @@
 class Solution {
     public int maximumBeauty(int[] nums, int k) {
-        Arrays.sort(nums);
-        int left=0;
+        if (nums.length == 1)
+            return 1;
 
-        int max=0;
+        int maxBeauty = 0;
+        int maxValue = 0;
 
-        for(int right=0; right<nums.length;right++){
-            while(nums[right]-nums[left] >2*k) left++;
+        for (int num : nums)
+            maxValue = Math.max(maxValue, num);
 
-            int temp = right-left+1;
+        int[] count = new int[maxValue + 1];
 
-            max= Math.max(temp,max);
+        for (int num : nums) {
+            count[Math.max(num - k, 0)]++;
+            count[Math.min(num + k + 1, maxValue)]--;
         }
 
-        return max;
+        int currentSum = 0;
+
+        for (int val : count) {
+            currentSum += val;
+            maxBeauty = Math.max(maxBeauty, currentSum);
+        }
+
+        return maxBeauty;
     }
 }
