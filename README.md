@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2554-minimum-total-distance-traveled](https://github.com/ashirvad47/L.C.D/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/ashirvad47/L.C.D/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ashirvad47/L.C.D/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/ashirvad47/L.C.D/tree/master/2716-prime-subtraction-operation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -478,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
 | [2164-two-best-non-overlapping-events](https://github.com/ashirvad47/L.C.D/tree/master/2164-two-best-non-overlapping-events) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -503,6 +505,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2232-adding-spaces-to-a-string](https://github.com/ashirvad47/L.C.D/tree/master/2232-adding-spaces-to-a-string) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/ashirvad47/L.C.D/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/ashirvad47/L.C.D/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Enumeration
 |  |
 | ------- |
