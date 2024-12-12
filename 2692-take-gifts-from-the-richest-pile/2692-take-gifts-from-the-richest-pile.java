@@ -6,8 +6,8 @@ class Solution {
         }
 
         for(int i =0;i < k;i++){
-            int temp = (int) Math.sqrt(pq.poll());
-            pq.offer(temp);
+            int temp = pq.poll();
+            pq.offer((int) Math.sqrt(temp));
         }
 
         long sum=0;
