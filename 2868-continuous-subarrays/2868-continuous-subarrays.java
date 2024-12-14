@@ -1,33 +1,49 @@
 class Solution {
+
     public long continuousSubarrays(int[] nums) {
-        Deque<Integer> maxQ = new ArrayDeque<>();
-        Deque<Integer> minQ = new ArrayDeque<>();
-        int left = 0;
-        long res = 0;
+        int right = 0, left = 0;
+        int curMin, curMax;
+        long windowLen = 0, total = 0;
 
-        for (int right = 0; right < nums.length; right++) {
-            while (!maxQ.isEmpty() && nums[maxQ.peekLast()] < nums[right]) {
-                maxQ.pollLast();
-            }
-            maxQ.offerLast(right);
+        // Initialize window with first element
+        curMin = curMax = nums[right];
 
-            while (!minQ.isEmpty() && nums[minQ.peekLast()] > nums[right]) {
-                minQ.pollLast();
-            }
-            minQ.offerLast(right);
+        for (right = 0; right < nums.length; right++) {
+            // Update min and max for current window
+            curMin = Math.min(curMin, nums[right]);
+            curMax = Math.max(curMax, nums[right]);
 
-            while (!maxQ.isEmpty() && !minQ.isEmpty() && nums[maxQ.peekFirst()] - nums[minQ.peekFirst()] > 2) {
-                if (maxQ.peekFirst() < minQ.peekFirst()) {
-                    left = maxQ.peekFirst() + 1;
-                    maxQ.pollFirst();
-                } else {
-                    left = minQ.peekFirst() + 1;
-                    minQ.pollFirst();
+            // If window condition breaks (diff > 2)
+            if (curMax - curMin > 2) {
+                // Add subarrays from previous valid window
+                windowLen = right - left;
+                total += ((windowLen * (windowLen + 1)) / 2);
+
+                // Start new window at current position
+                left = right;
+                curMin = curMax = nums[right];
+
+                // Expand left boundary while maintaining condition
+                while (
+                    left > 0 && Math.abs(nums[right] - nums[left - 1]) <= 2
+                ) {
+                    left--;
+                    curMin = Math.min(curMin, nums[left]);
+                    curMax = Math.max(curMax, nums[left]);
+                }
+
+                // Remove overcounted subarrays if left boundary expanded
+                if (left < right) {
+                    windowLen = right - left;
+                    total -= ((windowLen * (windowLen + 1)) / 2);
                 }
             }
-
-            res += right - left + 1;
         }
-        return res;
+
+        // Add subarrays from final window
+        windowLen = right - left;
+        total += ((windowLen * (windowLen + 1)) / 2);
+
+        return total;
     }
 }
