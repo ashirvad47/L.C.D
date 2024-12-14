@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2699-count-the-number-of-fair-pairs](https://github.com/ashirvad47/L.C.D/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/ashirvad47/L.C.D/tree/master/2716-prime-subtraction-operation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/ashirvad47/L.C.D/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ashirvad47/L.C.D/tree/master/3291-find-if-array-can-be-sorted) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ashirvad47/L.C.D/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0219-contains-duplicate-ii](https://github.com/ashirvad47/L.C.D/tree/master/0219-contains-duplicate-ii) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [1755-defuse-the-bomb](https://github.com/ashirvad47/L.C.D/tree/master/1755-defuse-the-bomb) |
+| [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/ashirvad47/L.C.D/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/ashirvad47/L.C.D/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ashirvad47/L.C.D/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -488,6 +490,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2164-two-best-non-overlapping-events](https://github.com/ashirvad47/L.C.D/tree/master/2164-two-best-non-overlapping-events) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ashirvad47/L.C.D/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -576,4 +579,16 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ashirvad47/L.C.D/tree/master/0070-climbing-stairs) |
+## Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
+## Ordered Set
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
 <!---LeetCode Topics End-->
