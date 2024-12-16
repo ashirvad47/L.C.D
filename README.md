@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ashirvad47/L.C.D/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3427-special-array-ii](https://github.com/ashirvad47/L.C.D/tree/master/3427-special-array-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashirvad47/L.C.D/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2716-prime-subtraction-operation](https://github.com/ashirvad47/L.C.D/tree/master/2716-prime-subtraction-operation) |
 | [2812-find-the-maximum-achievable-number](https://github.com/ashirvad47/L.C.D/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -494,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ashirvad47/L.C.D/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -521,6 +524,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2299-merge-nodes-in-between-zeros](https://github.com/ashirvad47/L.C.D/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ashirvad47/L.C.D/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Enumeration
 |  |
 | ------- |
