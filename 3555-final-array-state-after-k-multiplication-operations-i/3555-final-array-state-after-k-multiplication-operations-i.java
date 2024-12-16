@@ -1,23 +1,20 @@
 class Solution {
     public int[] getFinalState(int[] nums, int k, int multiplier) {
-        PriorityQueue<Pair> qu = new PriorityQueue<>((a, b) -> a.val !=b.val? a.val-b.val:a.idx-b.idx);
+        PriorityQueue<Pair> queue = new PriorityQueue<>((a, b) -> a.val != b.val ? a.val - b.val : a.idx - b.idx);
 
-        int j = 0;
-        for (int i : nums) {
-            qu.offer(new Pair(i, j));
-            j++;
+        for (int i = 0; i < nums.length; i++) {
+            queue.offer(new Pair(nums[i], i));
         }
 
-        while (k > 0) {
-            k--;
-            Pair top = qu.poll();
-            top.val *= multiplier;
-            qu.offer(top);
+        while (k-- > 0) {
+            Pair smallest = queue.poll();
+            smallest.val *= multiplier;
+            queue.offer(smallest);
         }
 
-        while (!qu.isEmpty()) {
-            Pair p = qu.poll();
-            nums[p.idx] = p.val;
+        while (!queue.isEmpty()) {
+            Pair pair = queue.poll();
+            nums[pair.idx] = pair.val;
         }
 
         return nums;
