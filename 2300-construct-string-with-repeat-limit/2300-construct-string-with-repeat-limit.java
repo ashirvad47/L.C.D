@@ -1,34 +1,36 @@
 class Solution {
-    public String repeatLimitedString(String s, int repeatLimit) {
-        StringBuilder res = new StringBuilder();
-        int[] alpha = new int[26];
-        for(char ch: s.toCharArray()){
-            alpha[ch-'a']++;
+    public static String repeatLimitedString(String s, int repeatLimit) {
+        int[] counts = new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            counts[s.charAt(i) - 'a']++;
         }
-        char t = 'z';
-        int val = 0;
-        for(int i=25; i>=0; i--){
-            if(alpha[i]>0){
-                while(val>0 && alpha[i]>0){
-                    res.append((char)('a'+i));
-                    alpha[i]--;
-                    for(int j=0; j<Math.min(repeatLimit, val); j++){
-                        res.append(t);
-                    }
-                    val = val - Math.min(repeatLimit, val);
-                }
-                if(alpha[i]>0){
-                    for(int j=0; j<Math.min(repeatLimit, alpha[i]); j++){
-                        res.append((char)('a'+i));
-                    }
-                    alpha[i] = alpha[i] - Math.min(repeatLimit, alpha[i]);
-                }
-                if(alpha[i]>0){
-                    t = (char)('a'+i);
-                    val = alpha[i];
-                }
+        char[] str = new char[s.length()];
+        int wriDex = 0;
+        for (int i = 25; i >= 0; i--) {
+            for (int j = 0; j < counts[i]; j++) {
+                str[wriDex++] = (char) (i + 'a');
             }
         }
-        return res.toString();
+        int rep = 0;
+        char cur = str[0];
+        int next = 1;
+        for (int i = 0; i < str.length; i++) {
+            if (str[i] == cur) {
+                rep++;
+                if (rep == repeatLimit + 1) {
+                    if (next < i) next = i + 1;
+                    while (next < str.length && str[next] >= cur) next++;
+                    if (next == str.length) return String.valueOf(str, 0, i);
+                    char tmp = str[i];
+                    str[i] = str[next];
+                    str[next] = tmp;
+                    rep = 0;
+                }
+            } else {
+                cur = str[i];
+                rep = 1;
+            }
+        }
+        return String.valueOf(str);
     }
 }
