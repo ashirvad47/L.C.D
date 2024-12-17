@@ -181,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ashirvad47/L.C.D/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ashirvad47/L.C.D/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/ashirvad47/L.C.D/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
@@ -224,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2232-adding-spaces-to-a-string](https://github.com/ashirvad47/L.C.D/tree/master/2232-adding-spaces-to-a-string) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ashirvad47/L.C.D/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/ashirvad47/L.C.D/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2580-circular-sentence](https://github.com/ashirvad47/L.C.D/tree/master/2580-circular-sentence) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/ashirvad47/L.C.D/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
@@ -239,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ashirvad47/L.C.D/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ashirvad47/L.C.D/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/ashirvad47/L.C.D/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Two Pointers
@@ -362,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1917-maximum-average-pass-ratio](https://github.com/ashirvad47/L.C.D/tree/master/1917-maximum-average-pass-ratio) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ashirvad47/L.C.D/tree/master/2300-construct-string-with-repeat-limit) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/ashirvad47/L.C.D/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/ashirvad47/L.C.D/tree/master/2716-prime-subtraction-operation) |
 ## Counting Sort
@@ -493,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
 | [1917-maximum-average-pass-ratio](https://github.com/ashirvad47/L.C.D/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/ashirvad47/L.C.D/tree/master/2164-two-best-non-overlapping-events) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ashirvad47/L.C.D/tree/master/2300-construct-string-with-repeat-limit) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ashirvad47/L.C.D/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
