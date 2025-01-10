@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
+| [0952-word-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0952-word-subsets) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -187,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0952-word-subsets) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
@@ -226,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0812-rotate-string](https://github.com/ashirvad47/L.C.D/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
+| [0952-word-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0952-word-subsets) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/ashirvad47/L.C.D/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
