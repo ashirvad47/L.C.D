@@ -1,38 +1,43 @@
 class Solution {
     public List<String> wordSubsets(String[] words1, String[] words2) {
-        HashMap<Character, Integer> map = new HashMap<>();
-        List<String> res = new ArrayList<>();
+        List<String> list=new ArrayList();
+        int n=words1.length;
+        int m=words2.length;
 
-        for (String i : words2) {
-            char[] arr = i.toCharArray();
-            HashMap<Character, Integer> tempMap = new HashMap<>();
-            for (char j : arr) {
-                tempMap.put(j, tempMap.getOrDefault(j, 0) + 1);
-            }
-            for (char key : tempMap.keySet()) {
-                map.put(key, Math.max(map.getOrDefault(key, 0), tempMap.get(key)));
+        int[] bMaxFreq=new int[26];           
+      // Calculate maximum frequency for each character in words2      
+        for(int i=0; i<m; i++){
+            int[] bArr=new int[26];
+            for(char ch:words2[i].toCharArray()){
+                int idx=ch-'a';
+                bArr[idx]++;
+                bMaxFreq[idx] = (bMaxFreq[idx]<bArr[idx])?bArr[idx]:bMaxFreq[idx];
             }
         }
 
-        for (String i : words1) {
-            char[] arr = i.toCharArray();
-            HashMap<Character, Integer> map2 = new HashMap<>();
-            for (char j : arr) {
-                map2.put(j, map2.getOrDefault(j, 0) + 1);
+        // Check each word in words1
+        for(int i=0; i<n; i++){
+            int[] aArr=new int[26];       
+            for(char ch:words1[i].toCharArray()){
+                aArr[ch-'a']++;
             }
 
-            boolean isUniversal = true;
-            for (char key : map.keySet()) {
-                if (map2.getOrDefault(key, 0) < map.get(key)) {
-                    isUniversal = false;
-                    break;
-                }
-            }
-            if (isUniversal) {
-                res.add(i);
+            if(checkSubset(bMaxFreq, aArr)){
+                list.add(words1[i]);
             }
         }
+        
+        return list;
+    }
 
-        return res;
+    boolean checkSubset(int[] bArr, int[] aArr){
+     
+        for(int i=0; i<26; i++){
+            if(bArr[i]>aArr[i]){
+                return false;
+            }
+        }    
+            
+        return true;
     }
 }
