@@ -535,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0100-same-tree](https://github.com/ashirvad47/L.C.D/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ashirvad47/L.C.D/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -607,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0100-same-tree](https://github.com/ashirvad47/L.C.D/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -634,6 +636,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0100-same-tree](https://github.com/ashirvad47/L.C.D/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -647,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0100-same-tree](https://github.com/ashirvad47/L.C.D/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
