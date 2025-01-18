@@ -36,14 +36,14 @@ class Solution {
                 continue;
             }
 
-            // Explore the 4 possible directions
-            for (int i = 0; i < 4; i++) {
-                int nx = x + dx[i];
-                int ny = y + dy[i];
+            // Explore the 4 possible directions according to the question
+            for (int i = 1; i <= 4; i++) {
+                int nx = x + dx[i-1];//adjusting for 1 index
+                int ny = y + dy[i-1];//adjusting for 1 index
 
                 if (nx >= 0 && nx < grid.length && ny >= 0 && ny < grid[0].length) {
 
-                    int newCost = currCost + (grid[x][y] == i + 1 ? 0 : 1);
+                    int newCost = currCost + (grid[x][y] == i  ? 0 : 1);
 
                     if (newCost < cost[nx][ny]) {
                         cost[nx][ny] = newCost;
