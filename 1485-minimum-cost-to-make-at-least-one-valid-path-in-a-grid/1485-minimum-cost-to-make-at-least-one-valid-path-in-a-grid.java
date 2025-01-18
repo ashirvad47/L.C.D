@@ -1,43 +1,50 @@
 class Solution {
     public int minCost(int[][] grid) {
-        int m = grid.length, n = grid[0].length;
-        int[] dx = {0, 0, 1, -1}; // Right, Left, Down, Up
+        int[] dx = {0, 0, 1, -1}; // For right, left, down, up
         int[] dy = {1, -1, 0, 0};
-        int[][] cost = new int[m][n];
-        boolean[][] visited = new boolean[m][n];
+
+        if (grid == null || grid.length == 0 || grid[0].length == 0) return -1;
         
-        // Initialize cost array with max values
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
+
+        pq.offer(new int[] { 0, 0, 0 }); 
+
+        int[][] cost = new int[grid.length][grid[0].length];
+
+        // Initialize cost array to Integer.MAX_VALUE
+        for (int i = 0; i < grid.length; i++) {
+            for (int j = 0; j < grid[0].length; j++) {
                 cost[i][j] = Integer.MAX_VALUE;
             }
         }
-        
-        // Priority queue to store (cost, row, col)
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
-        pq.offer(new int[]{0, 0, 0}); // cost, row, col
-        cost[0][0] = 0;
-        
+
+        cost[0][0] = 0; // Starting point has cost 0
+
+        // Start processing the queue
         while (!pq.isEmpty()) {
             int[] current = pq.poll();
-            int currentCost = current[0], x = current[1], y = current[2];
-            
-            if (visited[x][y]) continue;
-            visited[x][y] = true;
-            
-            // If we reach the bottom-right corner
-            if (x == m - 1 && y == n - 1) {
-                return currentCost;
+            int currCost = current[0];
+            int x = current[1];
+            int y = current[2];
+
+            // If we reach the bottom-right corner, return the current cost
+            if (x == grid.length - 1 && y == grid[0].length - 1) {
+                return currCost;
             }
             
-            // Explore all 4 directions
-            for (int d = 0; d < 4; d++) {
-                int nx = x + dx[d];
-                int ny = y + dy[d];
-                
-                if (nx >= 0 && nx < m && ny >= 0 && ny < n) {
-                    int newCost = currentCost + (grid[x][y] == d + 1 ? 0 : 1); // 0 if direction matches, 1 otherwise
-                    
+            if (currCost > cost[x][y]) {
+                continue;
+            }
+
+            // Explore the 4 possible directions
+            for (int i = 0; i < 4; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+
+                if (nx >= 0 && nx < grid.length && ny >= 0 && ny < grid[0].length) {
+
+                    int newCost = currCost + (grid[x][y] == i + 1 ? 0 : 1);
+
                     if (newCost < cost[nx][ny]) {
                         cost[nx][ny] = newCost;
                         pq.offer(new int[]{newCost, nx, ny});
@@ -45,7 +52,7 @@ class Solution {
                 }
             }
         }
-        
-        return -1; // Shouldn't reach here
+
+        return cost[grid.length-1][grid[0].length-1];
     }
 }
