@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2554-minimum-total-distance-traveled](https://github.com/ashirvad47/L.C.D/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/ashirvad47/L.C.D/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
+| [2685-first-completely-painted-row-or-column](https://github.com/ashirvad47/L.C.D/tree/master/2685-first-completely-painted-row-or-column) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ashirvad47/L.C.D/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ashirvad47/L.C.D/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ashirvad47/L.C.D/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2586-longest-square-streak-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/2586-longest-square-streak-in-an-array) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/ashirvad47/L.C.D/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/ashirvad47/L.C.D/tree/master/2677-cousins-in-binary-tree-ii) |
+| [2685-first-completely-painted-row-or-column](https://github.com/ashirvad47/L.C.D/tree/master/2685-first-completely-painted-row-or-column) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ashirvad47/L.C.D/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/ashirvad47/L.C.D/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/ashirvad47/L.C.D/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -611,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
+| [2685-first-completely-painted-row-or-column](https://github.com/ashirvad47/L.C.D/tree/master/2685-first-completely-painted-row-or-column) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Breadth-First Search
 |  |
