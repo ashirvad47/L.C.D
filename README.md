@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1940-maximum-xor-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/1940-maximum-xor-for-each-query) |
 | [2048-build-array-from-permutation](https://github.com/ashirvad47/L.C.D/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/ashirvad47/L.C.D/tree/master/2058-concatenation-of-array) |
+| [2145-grid-game](https://github.com/ashirvad47/L.C.D/tree/master/2145-grid-game) |
 | [2164-two-best-non-overlapping-events](https://github.com/ashirvad47/L.C.D/tree/master/2164-two-best-non-overlapping-events) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashirvad47/L.C.D/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashirvad47/L.C.D/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1940-maximum-xor-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/1940-maximum-xor-for-each-query) |
+| [2145-grid-game](https://github.com/ashirvad47/L.C.D/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/ashirvad47/L.C.D/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/ashirvad47/L.C.D/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ashirvad47/L.C.D/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -612,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [2145-grid-game](https://github.com/ashirvad47/L.C.D/tree/master/2145-grid-game) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2685-first-completely-painted-row-or-column](https://github.com/ashirvad47/L.C.D/tree/master/2685-first-completely-painted-row-or-column) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
