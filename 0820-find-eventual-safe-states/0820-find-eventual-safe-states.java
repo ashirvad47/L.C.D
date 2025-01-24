@@ -1,49 +1,26 @@
 class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
-        int n = graph.length;
-
-        // Step 1: Create reversed graph and calculate indegree
-        List<List<Integer>> reverseGraph = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            reverseGraph.add(new ArrayList<>());
+        List<Integer> res = new ArrayList<>();
+        if(graph == null || graph.length == 0)  return res;
+        
+        int nodeCount = graph.length;
+        int[] color = new int[nodeCount];
+        
+        for(int i = 0;i < nodeCount;i++){
+            if(dfs(graph, i, color))    res.add(i);
         }
-        int[] indegree = new int[n];
-        for (int i = 0; i < n; i++) {
-            for (int neighbor : graph[i]) {
-                reverseGraph.get(neighbor).add(i);
-                indegree[i]++;
-            }
+        
+        return res;
+    }
+    public boolean dfs(int[][] graph, int start, int[] color){
+        if(color[start] != 0)   return color[start] == 1;
+        
+        color[start] = 2;
+        for(int newNode : graph[start]){
+            if(!dfs(graph, newNode, color))    return false;
         }
-
-        // Step 2: Initialize queue with terminal nodes (indegree 0)
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < n; i++) {
-            if (indegree[i] == 0) {
-                queue.offer(i);
-            }
-        }
-
-        // Step 3: Process the queue
-        boolean[] safe = new boolean[n];
-        while (!queue.isEmpty()) {
-            int node = queue.poll();
-            safe[node] = true;
-            for (int parent : reverseGraph.get(node)) {
-                indegree[parent]--;
-                if (indegree[parent] == 0) {
-                    queue.offer(parent);
-                }
-            }
-        }
-
-        // Step 4: Collect all safe nodes
-        List<Integer> result = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            if (safe[i]) {
-                result.add(i);
-            }
-        }
-
-        return result;
+        color[start] = 1;
+        
+        return true;
     }
 }
