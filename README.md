@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/ashirvad47/L.C.D/tree/master/1502-construct-k-palindrome-strings) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/ashirvad47/L.C.D/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
 | [2300-construct-string-with-repeat-limit](https://github.com/ashirvad47/L.C.D/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ashirvad47/L.C.D/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashirvad47/L.C.D/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/ashirvad47/L.C.D/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ashirvad47/L.C.D/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2232-adding-spaces-to-a-string](https://github.com/ashirvad47/L.C.D/tree/master/2232-adding-spaces-to-a-string) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/ashirvad47/L.C.D/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -444,6 +446,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashirvad47/L.C.D/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashirvad47/L.C.D/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1940-maximum-xor-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/1940-maximum-xor-for-each-query) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/ashirvad47/L.C.D/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2145-grid-game](https://github.com/ashirvad47/L.C.D/tree/master/2145-grid-game) |
 | [2358-number-of-ways-to-split-array](https://github.com/ashirvad47/L.C.D/tree/master/2358-number-of-ways-to-split-array) |
 | [2465-shifting-letters-ii](https://github.com/ashirvad47/L.C.D/tree/master/2465-shifting-letters-ii) |
@@ -674,6 +677,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0090-subsets-ii](https://github.com/ashirvad47/L.C.D/tree/master/0090-subsets-ii) |
 | [0338-counting-bits](https://github.com/ashirvad47/L.C.D/tree/master/0338-counting-bits) |
 | [1940-maximum-xor-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/1940-maximum-xor-for-each-query) |
+| [2059-unique-length-3-palindromic-subsequences](https://github.com/ashirvad47/L.C.D/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ashirvad47/L.C.D/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2509-minimize-xor](https://github.com/ashirvad47/L.C.D/tree/master/2509-minimize-xor) |
