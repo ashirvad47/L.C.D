@@ -32,7 +32,7 @@ class Solution {
         // If heights are equal, we have a perfect binary tree
         if (leftHeight == rightHeight) {
             // A perfect binary tree of height h has 2^h - 1 nodes
-            return (1 << leftHeight) - 1;
+            return (int) Math.pow(2,leftHeight) - 1;
         }
         
         // If heights differ, recursively count nodes
