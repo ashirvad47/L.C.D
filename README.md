@@ -582,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/ashirvad47/L.C.D/tree/master/0684-redundant-connection) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/ashirvad47/L.C.D/tree/master/0820-find-eventual-safe-states) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -683,6 +684,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/ashirvad47/L.C.D/tree/master/0684-redundant-connection) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0820-find-eventual-safe-states](https://github.com/ashirvad47/L.C.D/tree/master/0820-find-eventual-safe-states) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
 | [1396-count-servers-that-communicate](https://github.com/ashirvad47/L.C.D/tree/master/1396-count-servers-that-communicate) |
@@ -735,6 +737,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -763,6 +766,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ashirvad47/L.C.D/tree/master/0988-flip-equivalent-binary-trees) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ashirvad47/L.C.D/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
@@ -833,6 +837,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/ashirvad47/L.C.D/tree/master/0173-binary-search-tree-iterator) |
+| [0799-minimum-distance-between-bst-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0799-minimum-distance-between-bst-nodes) |
 ## Iterator
 |  |
 | ------- |
