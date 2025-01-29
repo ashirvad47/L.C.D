@@ -517,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0020-valid-parentheses](https://github.com/ashirvad47/L.C.D/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ashirvad47/L.C.D/tree/master/0042-trapping-rain-water) |
 | [0071-simplify-path](https://github.com/ashirvad47/L.C.D/tree/master/0071-simplify-path) |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0094-binary-tree-inorder-traversal) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/ashirvad47/L.C.D/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/ashirvad47/L.C.D/tree/master/0155-min-stack) |
@@ -569,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/ashirvad47/L.C.D/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/ashirvad47/L.C.D/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -722,6 +724,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/ashirvad47/L.C.D/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/ashirvad47/L.C.D/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0102-binary-tree-level-order-traversal) |
@@ -752,6 +755,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/ashirvad47/L.C.D/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/ashirvad47/L.C.D/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0102-binary-tree-level-order-traversal) |
