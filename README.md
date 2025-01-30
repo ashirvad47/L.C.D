@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0407-trapping-rain-water-ii](https://github.com/ashirvad47/L.C.D/tree/master/0407-trapping-rain-water-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [0952-word-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0952-word-subsets) |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/ashirvad47/L.C.D/tree/master/0202-happy-number) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/0908-middle-of-the-linked-list) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -341,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0274-h-index](https://github.com/ashirvad47/L.C.D/tree/master/0274-h-index) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -485,6 +489,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ashirvad47/L.C.D/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0222-count-complete-tree-nodes) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ashirvad47/L.C.D/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
