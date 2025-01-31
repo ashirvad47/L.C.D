@@ -1,111 +1,69 @@
 class Solution {
-    // Union Find class to help track islands and their sizes
-    class UnionFind {
-        private int[] parent;
-        private int[] size;
-        
-        public UnionFind(int n) {
-            // Initialize with n*n elements since we have an n*n grid
-            parent = new int[n * n];
-            size = new int[n * n];
-            // Initially, each cell is its own parent with size 1
-            for (int i = 0; i < n * n; i++) {
-                parent[i] = i;
-                size[i] = 1;
-            }
-        }
-        
-        // Find the root parent of a set
-        public int find(int x) {
-            if (parent[x] != x) {
-                parent[x] = find(parent[x]); // Path compression
-            }
-            return parent[x];
-        }
-        
-        // Union two sets together
-        public void union(int x, int y) {
-            int rootX = find(x);
-            int rootY = find(y);
-            if (rootX != rootY) {
-                // Merge smaller set into larger set
-                if (size[rootX] < size[rootY]) {
-                    int temp = rootX;
-                    rootX = rootY;
-                    rootY = temp;
-                }
-                parent[rootY] = rootX;
-                size[rootX] += size[rootY];
-            }
-        }
-        
-        // Get size of the set containing x
-        public int getSize(int x) {
-            return size[find(x)];
-        }
-    }
+    // Define direction arrays for all 4 directions (up, right, down, left)
+    private final int[] dx = {-1, 0, 1, 0};  // Changes in row
+    private final int[] dy = {0, 1, 0, -1};  // Changes in column
     
     public int largestIsland(int[][] grid) {
+        Map<Integer, Integer> regionsArea = new HashMap<>();
+        regionsArea.put(0, 0);
         int n = grid.length;
-        UnionFind uf = new UnionFind(n);
+        int region = 2;
         
-        // Direction arrays for checking 4 adjacent cells
-        int[] dx = {-1, 1, 0, 0};
-        int[] dy = {0, 0, -1, 1};
-        
-        // First pass: Build initial islands using UnionFind
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1) {
-                    int index = i * n + j;
-                    // Check all 4 directions
-                    for (int k = 0; k < 4; k++) {
-                        int newRow = i + dx[k];
-                        int newCol = j + dy[k];
-                        // If neighbor is valid and is 1, union them
-                        if (isValid(newRow, newCol, n) && grid[newRow][newCol] == 1) {
-                            uf.union(index, newRow * n + newCol);
-                        }
-                    }
+        // First pass: Label each island with a unique region number
+        for(int i = 0; i < n; i++) {
+            for(int j = 0; j < n; j++) {
+                if(grid[i][j] == 1) {
+                    int area = floodFill(grid, i, j, region);
+                    regionsArea.put(region, area);
+                    region++;
                 }
             }
         }
         
-        // Keep track of maximum island size
-        int maxSize = 0;
+        // Handle case where grid is all 1s
+        int max = regionsArea.getOrDefault(2, 0);
         
-        // Second pass: Try changing each 0 to 1
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 0) {
-                    // Use a Set to avoid counting same island multiple times
-                    Set<Integer> neighborIslands = new HashSet<>();
-                    // Check all 4 directions
-                    for (int k = 0; k < 4; k++) {
-                        int newRow = i + dx[k];
-                        int newCol = j + dy[k];
-                        // If neighbor is valid and is 1, add its island root to set
-                        if (isValid(newRow, newCol, n) && grid[newRow][newCol] == 1) {
-                            neighborIslands.add(uf.find(newRow * n + newCol));
+        // Second pass: Try to flip each 0 and calculate maximum possible island
+        for(int r = 0; r < n; r++) {
+            for(int c = 0; c < n; c++) {
+                if(grid[r][c] == 0) {
+                    Set<Integer> neighbors = new HashSet<>();
+                    // Use direction arrays to check all 4 neighbors
+                    for(int i = 0; i < 4; i++) {
+                        int newRow = r + dx[i];
+                        int newCol = c + dy[i];
+                        if(newRow >= 0 && newRow < n && newCol >= 0 && newCol < n) {
+                            neighbors.add(grid[newRow][newCol]);
+                        } else {
+                            neighbors.add(0);  // Add 0 for out-of-bounds cells
                         }
                     }
-                    // Calculate size if we change this 0 to 1
-                    int size = 1; // Start with 1 for the cell we're changing
-                    for (int root : neighborIslands) {
-                        size += uf.getSize(root);
+                    
+                    int area = 1;  // Start with 1 for the cell we're flipping
+                    for(int neighbor: neighbors) {
+                        area += regionsArea.get(neighbor);
                     }
-                    maxSize = Math.max(maxSize, size);
+                    max = Math.max(max, area);
                 }
             }
         }
-        
-        // If maxSize is still 0, it means there were no 0s to change
-        // In this case, return the size of any island (they're all connected)
-        return maxSize == 0 ? n * n : maxSize;
+        return max;
     }
     
-    // Helper method to check if coordinates are valid
-    private boolean isValid(int row, int col, int n) {
-        return row >= 0 && row < n && col >= 0 && col < n;
+    public int floodFill(int[][] grid, int r, int c, int region) {
+        int n = grid.length;
+        if(r < 0 || r >= n || c < 0 || c >= n || grid[r][c] != 1) {
+            return 0;
+        }
+        
+        grid[r][c] = region;
+        int sum = 1;
+        
+        // Use direction arrays for the flood fill
+        for(int i = 0; i < 4; i++) {
+            sum += floodFill(grid, r + dx[i], c + dy[i], region);
+        }
+        
+        return sum;
     }
 }
