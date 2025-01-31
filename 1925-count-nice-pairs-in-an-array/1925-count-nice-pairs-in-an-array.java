@@ -1,6 +1,7 @@
 class Solution {
     public int countNicePairs(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
+        final int MOD = 1000000007;
         
         for (int i : nums) {
             map.put(i - reverse(i), map.getOrDefault(i - reverse(i), 0) + 1);
@@ -9,7 +10,7 @@ class Solution {
         long count = 0; 
         for (Map.Entry<Integer, Integer> e : map.entrySet()) {
             long value = e.getValue();
-            count = (count + (value * (value - 1) / 2)) % 1000000007;
+            count = (count + (value * (value - 1) / 2)) % MOD;
         }
         
         return (int) count;
