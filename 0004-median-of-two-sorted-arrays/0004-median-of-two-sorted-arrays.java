@@ -1,22 +1,36 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        List<Integer> mergedList = new ArrayList<>();
+        int n1 = nums1.length;
+        int n2 = nums2.length;
+        int totalLength = n1 + n2;
+        int[] mergedArray = new int[totalLength];
 
-        for (int num : nums1) {
-            mergedList.add(num);
+        int i = 0, j = 0, k = 0;
+
+        // Merge both sorted arrays into a single sorted array
+        while (i < n1 && j < n2) {
+            if (nums1[i] < nums2[j]) {
+                mergedArray[k++] = nums1[i++];
+            } else {
+                mergedArray[k++] = nums2[j++];
+            }
         }
-        for (int num : nums2) {
-            mergedList.add(num);
+
+        // Copy remaining elements from nums1 (if any)
+        while (i < n1) {
+            mergedArray[k++] = nums1[i++];
         }
 
-        Collections.sort(mergedList);
+        // Copy remaining elements from nums2 (if any)
+        while (j < n2) {
+            mergedArray[k++] = nums2[j++];
+        }
 
-        int size = mergedList.size();
-
-        if (size % 2 == 1) {
-            return mergedList.get(size / 2); 
+        // Find median
+        if (totalLength % 2 == 0) {
+            return (mergedArray[totalLength / 2 - 1] + mergedArray[totalLength / 2]) / 2.0;
         } else {
-            return (mergedList.get(size / 2 - 1) + mergedList.get(size / 2)) / 2.0;
+            return mergedArray[totalLength / 2];
         }
     }
 }
