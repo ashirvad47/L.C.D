@@ -19,24 +19,22 @@ class Solution {
 
     }
 
-    public void helper(char[][] grid, int reg, int row , int col){
-
+    public void helper(char[][] grid, int reg, int i, int j) {
         int m = grid.length;
         int n = grid[0].length;
-
-        if(row < 0 || row >= m || col < 0 || col >= n || grid[row][col] != '1') {
-            return;
+        
+        int[] dx = {-1, 1, 0, 0};
+        int[] dy = {0, 0, 1, -1};
+        
+        grid[i][j] = (char)(reg + '0');
+        
+        for(int z = 0; z < 4; z++) {
+            int row = i + dx[z];
+            int col = j + dy[z];
+            
+            if(row >= 0 && row < m && col >= 0 && col < n && grid[row][col] == '1') {
+                helper(grid, reg, row, col);
+            }
         }
-
-        int []  dx={-1,1,0,0};
-        int []  dy={0,0,1,-1};
-
-        grid[row][col]= (char) (reg+'0');
-
-        for(int z =0; z < 4; z++){
-            helper(grid, reg, row + dx[z], col + dy[z]);
-        }
-
-
     }
 }
