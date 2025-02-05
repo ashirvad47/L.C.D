@@ -16,7 +16,7 @@ class Solution {
                 if (count <= 2) {
                     temp[j++] = c1[i];
                     temp[j++] = c2[i];
-                }
+                }else return false;
 
             }
         }
