@@ -222,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/ashirvad47/L.C.D/tree/master/1502-construct-k-palindrome-strings) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ashirvad47/L.C.D/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ashirvad47/L.C.D/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2254-check-if-every-row-and-column-contains-all-numbers](https://github.com/ashirvad47/L.C.D/tree/master/2254-check-if-every-row-and-column-contains-all-numbers) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1894-merge-strings-alternately](https://github.com/ashirvad47/L.C.D/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashirvad47/L.C.D/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ashirvad47/L.C.D/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ashirvad47/L.C.D/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ashirvad47/L.C.D/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2232-adding-spaces-to-a-string](https://github.com/ashirvad47/L.C.D/tree/master/2232-adding-spaces-to-a-string) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1396-count-servers-that-communicate](https://github.com/ashirvad47/L.C.D/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/ashirvad47/L.C.D/tree/master/1502-construct-k-palindrome-strings) |
+| [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ashirvad47/L.C.D/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2300-construct-string-with-repeat-limit](https://github.com/ashirvad47/L.C.D/tree/master/2300-construct-string-with-repeat-limit) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ashirvad47/L.C.D/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
