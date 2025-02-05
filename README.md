@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
+| [0739-daily-temperatures](https://github.com/ashirvad47/L.C.D/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [0854-making-a-large-island](https://github.com/ashirvad47/L.C.D/tree/master/0854-making-a-large-island) |
 | [0952-word-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0952-word-subsets) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0155-min-stack](https://github.com/ashirvad47/L.C.D/tree/master/0155-min-stack) |
 | [0173-binary-search-tree-iterator](https://github.com/ashirvad47/L.C.D/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
+| [0739-daily-temperatures](https://github.com/ashirvad47/L.C.D/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ashirvad47/L.C.D/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
@@ -560,6 +562,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ashirvad47/L.C.D/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/ashirvad47/L.C.D/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ashirvad47/L.C.D/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/ashirvad47/L.C.D/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
