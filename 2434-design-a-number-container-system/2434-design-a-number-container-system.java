@@ -1,39 +1,33 @@
 class NumberContainers {
-    HashMap<Integer, Integer> indexMap;
-    TreeMap<Integer, TreeSet<Integer>> numberMap;
-
+    private HashMap<Integer, Integer> indexToNum;
+    private HashMap<Integer, TreeSet<Integer>> numToIndices;
+    
     public NumberContainers() {
-        indexMap = new HashMap<>();
-        numberMap = new TreeMap<>();
+        indexToNum = new HashMap<>();
+        numToIndices = new HashMap<>();
     }
     
     public void change(int index, int number) {
-        if (indexMap.containsKey(index)) {
-            int oldNumber = indexMap.get(index);
-            if (numberMap.containsKey(oldNumber)) {
-                numberMap.get(oldNumber).remove(index);
-                if (numberMap.get(oldNumber).isEmpty()) {
-                    numberMap.remove(oldNumber);
-                }
+        if (indexToNum.containsKey(index)) {
+
+            int oldNum = indexToNum.get(index);
+            numToIndices.get(oldNum).remove(index);
+
+            if (numToIndices.get(oldNum).isEmpty()) {
+                numToIndices.remove(oldNum);
             }
         }
         
-        indexMap.put(index, number);
-        numberMap.putIfAbsent(number, new TreeSet<>());
-        numberMap.get(number).add(index);
+        indexToNum.put(index, number);
+        
+        numToIndices.putIfAbsent(number, new TreeSet<>());
+        numToIndices.get(number).add(index);
     }
     
     public int find(int number) {
-        if (!numberMap.containsKey(number) || numberMap.get(number).isEmpty()) {
-            return -1;
+        if (numToIndices.containsKey(number)) {
+            return numToIndices.get(number).first();
         }
-        return numberMap.get(number).first();
+        return -1;
     }
 }
-
-/**
- * Your NumberContainers object will be instantiated and called as such:
- * NumberContainers obj = new NumberContainers();
- * obj.change(index, number);
- * int param_2 = obj.find(number);
- */
