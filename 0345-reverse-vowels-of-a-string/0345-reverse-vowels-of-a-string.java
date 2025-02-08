@@ -1,10 +1,9 @@
 class Solution {
-    Set<Character> vowels = new HashSet<>(Arrays.asList('A','a','E','e','I','i','O','o','U','u'));
+    
 
     public String reverseVowels(String s) {
-        // HashMap<Character, Integer> map = new HashMap <>();
+        Set<Character> vowels = new HashSet<>(Arrays.asList('A','a','E','e','I','i','O','o','U','u'));
         StringBuilder sb = new StringBuilder(s);
-        
         List<Character> ls = new ArrayList<>();
 
         for(char c : s.toCharArray()){
