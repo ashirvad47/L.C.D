@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
+| [0605-can-place-flowers](https://github.com/ashirvad47/L.C.D/tree/master/0605-can-place-flowers) |
 | [0739-daily-temperatures](https://github.com/ashirvad47/L.C.D/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [0854-making-a-large-island](https://github.com/ashirvad47/L.C.D/tree/master/0854-making-a-large-island) |
@@ -451,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0134-gas-station](https://github.com/ashirvad47/L.C.D/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/ashirvad47/L.C.D/tree/master/0135-candy) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0605-can-place-flowers](https://github.com/ashirvad47/L.C.D/tree/master/0605-can-place-flowers) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
