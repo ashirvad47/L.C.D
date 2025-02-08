@@ -13,7 +13,7 @@ class Solution {
         for (int i = 1; i < flowerbed.length-1; i++) {
             if (flowerbed[i-1] != 1 && 
                 flowerbed[i+1] != 1 && flowerbed[i] == 0) {
-                flowerbed[i] = 1;  
+                flowerbed[i] = 1; 
                 n--;
                 if (n <= 0) return true;
                 i++;
