@@ -1,31 +1,38 @@
 class NumberContainers {
-    private HashMap<Integer, Integer> indexToNum;
-    private HashMap<Integer, TreeSet<Integer>> numToIndices;
-    
+
+    HashMap<Integer,Integer> hmap = new HashMap<>();
+    TreeMap<Integer,TreeSet<Integer>> tmap = new TreeMap<>();
+
     public NumberContainers() {
-        indexToNum = new HashMap<>();
-        numToIndices = new HashMap<>();
+        
     }
     
     public void change(int index, int number) {
-        if (indexToNum.containsKey(index)) {
-            int oldNum = indexToNum.get(index);
-            numToIndices.get(oldNum).remove(index);
-            if (numToIndices.get(oldNum).isEmpty()) {
-                numToIndices.remove(oldNum);
+        if(hmap.containsKey(index)){
+            
+            if(tmap.containsKey(hmap.get(index))){
+                tmap.get(hmap.get(index)).remove(index);
+                if(tmap.get(hmap.get(index)).isEmpty()) tmap.remove(hmap.get(index));
             }
         }
-        
-        indexToNum.put(index, number);
-        
-        numToIndices.putIfAbsent(number, new TreeSet<>());
-        numToIndices.get(number).add(index);
+        hmap.put(index,number);
+        tmap.putIfAbsent(number, new TreeSet<>());
+        tmap.get(number).add(index);
+
     }
     
     public int find(int number) {
-        if (numToIndices.containsKey(number)) {
-            return numToIndices.get(number).first();
+        if(!tmap.containsKey(number) || tmap.get(number).isEmpty()){
+            return -1;
         }
-        return -1;
+
+        return tmap.get(number).first();
     }
 }
+
+/**
+ * Your NumberContainers object will be instantiated and called as such:
+ * NumberContainers obj = new NumberContainers();
+ * obj.change(index,number);
+ * int param_2 = obj.find(number);
+ */
