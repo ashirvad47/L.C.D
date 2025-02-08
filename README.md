@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
 | [0242-valid-anagram](https://github.com/ashirvad47/L.C.D/tree/master/0242-valid-anagram) |
 | [0290-word-pattern](https://github.com/ashirvad47/L.C.D/tree/master/0290-word-pattern) |
+| [0345-reverse-vowels-of-a-string](https://github.com/ashirvad47/L.C.D/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
@@ -344,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/ashirvad47/L.C.D/tree/master/0202-happy-number) |
+| [0345-reverse-vowels-of-a-string](https://github.com/ashirvad47/L.C.D/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
