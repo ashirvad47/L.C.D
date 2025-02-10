@@ -20,7 +20,7 @@ class Solution {
 
         for (char c : s.toCharArray()) {
             if (Character.isDigit(c)) {
-                if (sb.length() > 0) sb.setLength(sb.length() - 1);
+                if (sb.length() > 0) sb.deleteCharAt(sb.length() - 1);
             } else {
                 sb.append(c);
             }
