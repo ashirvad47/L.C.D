@@ -4,25 +4,28 @@ public class Solution {
             return s;
         }
 
-        int maxLen = 1;
-        int start = 0;
-        int end = 0;
-        boolean[][] dp = new boolean[s.length()][s.length()];
+        String maxStr = s.substring(0, 1);
 
-        for (int i = 0; i < s.length(); ++i) {
-            dp[i][i] = true;
-            for (int j = 0; j < i; ++j) {
-                if (s.charAt(j) == s.charAt(i) && (i - j <= 2 || dp[j + 1][i - 1])) {
-                    dp[j][i] = true;
-                    if (i - j + 1 > maxLen) {
-                        maxLen = i - j + 1;
-                        start = j;
-                        end = i;
-                    }
-                }
+        for (int i = 0; i < s.length() - 1; i++) {
+            String odd = expandFromCenter(s, i, i);
+            String even = expandFromCenter(s, i, i + 1);
+
+            if (odd.length() > maxStr.length()) {
+                maxStr = odd;
+            }
+            if (even.length() > maxStr.length()) {
+                maxStr = even;
             }
         }
 
-        return s.substring(start, end + 1);
+        return maxStr;
+    }
+
+    private String expandFromCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return s.substring(left + 1, right);
     }
 }
