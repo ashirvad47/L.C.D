@@ -1,23 +1,28 @@
 class Solution {
     public int maximumSum(int[] nums) {
-        HashMap<Integer, List<Integer>> map = new HashMap<>();
+        HashMap<Integer, int[]> map = new HashMap<>();
+        int maxSum = -1;
 
-        for (int i : nums) {
-            int key = digSum(i);
-            map.putIfAbsent(key, new ArrayList<>());
-            map.get(key).add(i);
-        }
-        int maxSum=-1;
-        for(int i : map.keySet()){
-            if(map.get(i).size()==2){
-                maxSum = Math.max(maxSum,map.get(i).get(0)+map.get(i).get(1));
-            }
-            else if(map.get(i).size()>2){
-                Collections.sort(map.get(i), Collections.reverseOrder());
-                maxSum = Math.max(maxSum,map.get(i).get(0)+map.get(i).get(1));
-            }
-        }
+        for (int num : nums) {
+            int key = digSum(num);
+            if (!map.containsKey(key)) {
+                map.put(key, new int[]{num, -1}); 
+            } else {
+                int[] topTwo = map.get(key);
 
+                if (num > topTwo[0]) {
+                    topTwo[1] = topTwo[0];
+                    topTwo[0] = num;
+                } else if (num > topTwo[1]) {
+                    topTwo[1] = num;
+                }
+
+                if (topTwo[1] != -1) {
+                    maxSum = Math.max(maxSum, topTwo[0] + topTwo[1]);
+                }
+            }
+        }
+        
         return maxSum;
     }
 
