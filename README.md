@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0049-group-anagrams](https://github.com/ashirvad47/L.C.D/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/ashirvad47/L.C.D/tree/master/0051-n-queens) |
+| [0053-maximum-subarray](https://github.com/ashirvad47/L.C.D/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/ashirvad47/L.C.D/tree/master/0056-merge-intervals) |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ashirvad47/L.C.D/tree/master/0004-median-of-two-sorted-arrays) |
+| [0053-maximum-subarray](https://github.com/ashirvad47/L.C.D/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0169-majority-element](https://github.com/ashirvad47/L.C.D/tree/master/0169-majority-element) |
@@ -435,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0022-generate-parentheses](https://github.com/ashirvad47/L.C.D/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ashirvad47/L.C.D/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ashirvad47/L.C.D/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/ashirvad47/L.C.D/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/ashirvad47/L.C.D/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/ashirvad47/L.C.D/tree/master/0118-pascals-triangle) |
