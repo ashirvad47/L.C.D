@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1396-count-servers-that-communicate](https://github.com/ashirvad47/L.C.D/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
+| [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/1524-string-matching-in-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/ashirvad47/L.C.D/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -423,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashirvad47/L.C.D/tree/master/1146-greatest-common-divisor-of-strings) |
+| [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
 | [1925-count-nice-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/1925-count-nice-pairs-in-an-array) |
 | [2278-find-three-consecutive-integers-that-sum-to-a-given-number](https://github.com/ashirvad47/L.C.D/tree/master/2278-find-three-consecutive-integers-that-sum-to-a-given-number) |
 | [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
@@ -490,6 +492,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0208-implement-trie-prefix-tree](https://github.com/ashirvad47/L.C.D/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/ashirvad47/L.C.D/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
+| [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
 | [2434-design-a-number-container-system](https://github.com/ashirvad47/L.C.D/tree/master/2434-design-a-number-container-system) |
 ## Randomized
 |  |
@@ -500,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ashirvad47/L.C.D/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/ashirvad47/L.C.D/tree/master/0238-product-of-array-except-self) |
+| [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashirvad47/L.C.D/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashirvad47/L.C.D/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1940-maximum-xor-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/1940-maximum-xor-for-each-query) |
@@ -944,4 +948,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/ashirvad47/L.C.D/tree/master/0173-binary-search-tree-iterator) |
+## Data Stream
+|  |
+| ------- |
+| [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
 <!---LeetCode Topics End-->
