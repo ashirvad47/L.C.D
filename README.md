@@ -142,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0090-subsets-ii](https://github.com/ashirvad47/L.C.D/tree/master/0090-subsets-ii) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/ashirvad47/L.C.D/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Database
 |  |
 | ------- |
@@ -430,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 | [2448-count-number-of-bad-pairs](https://github.com/ashirvad47/L.C.D/tree/master/2448-count-number-of-bad-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/ashirvad47/L.C.D/tree/master/2716-prime-subtraction-operation) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/ashirvad47/L.C.D/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2812-find-the-maximum-achievable-number](https://github.com/ashirvad47/L.C.D/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
