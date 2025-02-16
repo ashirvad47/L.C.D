@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0289-game-of-life](https://github.com/ashirvad47/L.C.D/tree/master/0289-game-of-life) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
+| [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/ashirvad47/L.C.D/tree/master/0407-trapping-rain-water-ii) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -279,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0345-reverse-vowels-of-a-string](https://github.com/ashirvad47/L.C.D/tree/master/0345-reverse-vowels-of-a-string) |
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
+| [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0812-rotate-string](https://github.com/ashirvad47/L.C.D/tree/master/0812-rotate-string) |
@@ -652,6 +654,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ashirvad47/L.C.D/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ashirvad47/L.C.D/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0684-redundant-connection](https://github.com/ashirvad47/L.C.D/tree/master/0684-redundant-connection) |
@@ -703,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0128-longest-consecutive-sequence](https://github.com/ashirvad47/L.C.D/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/ashirvad47/L.C.D/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ashirvad47/L.C.D/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/ashirvad47/L.C.D/tree/master/0684-redundant-connection) |
 | [0854-making-a-large-island](https://github.com/ashirvad47/L.C.D/tree/master/0854-making-a-large-island) |
 | [1396-count-servers-that-communicate](https://github.com/ashirvad47/L.C.D/tree/master/1396-count-servers-that-communicate) |
@@ -771,6 +775,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0133-clone-graph](https://github.com/ashirvad47/L.C.D/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/ashirvad47/L.C.D/tree/master/0200-number-of-islands) |
 | [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
+| [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/ashirvad47/L.C.D/tree/master/0407-trapping-rain-water-ii) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ashirvad47/L.C.D/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
@@ -911,6 +916,7 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/ashirvad47/L.C.D/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/ashirvad47/L.C.D/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/ashirvad47/L.C.D/tree/master/0820-find-eventual-safe-states) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -933,6 +939,7 @@ A collection of LeetCode questions to ace the coding interview!
 ## Shortest Path
 |  |
 | ------- |
+| [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Topological Sort
 |  |
