@@ -6,6 +6,6 @@ class Solution {
         {
             sb.append(nums[i].charAt(i) == '0'? "1": "0");
         }
-        return new String(sb);
+        return sb.toString();
     }
 }
