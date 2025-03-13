@@ -453,6 +453,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0013-roman-to-integer](https://github.com/ashirvad47/L.C.D/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/ashirvad47/L.C.D/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ashirvad47/L.C.D/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/ashirvad47/L.C.D/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/ashirvad47/L.C.D/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/ashirvad47/L.C.D/tree/master/0070-climbing-stairs) |
@@ -483,6 +484,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0045-jump-game-ii](https://github.com/ashirvad47/L.C.D/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ashirvad47/L.C.D/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ashirvad47/L.C.D/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/ashirvad47/L.C.D/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ashirvad47/L.C.D/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/ashirvad47/L.C.D/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/ashirvad47/L.C.D/tree/master/0119-pascals-triangle-ii) |
@@ -1029,4 +1031,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/ashirvad47/L.C.D/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
