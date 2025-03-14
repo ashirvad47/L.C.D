@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0952-word-subsets) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/ashirvad47/L.C.D/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/ashirvad47/L.C.D/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/ashirvad47/L.C.D/tree/master/1396-count-servers-that-communicate) |
@@ -592,6 +593,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0209-minimum-size-subarray-sum](https://github.com/ashirvad47/L.C.D/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0222-count-complete-tree-nodes) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/ashirvad47/L.C.D/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ashirvad47/L.C.D/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
