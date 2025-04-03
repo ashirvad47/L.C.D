@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/ashirvad47/L.C.D/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/ashirvad47/L.C.D/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/ashirvad47/L.C.D/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/ashirvad47/L.C.D/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ashirvad47/L.C.D/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
