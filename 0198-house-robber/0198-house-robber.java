@@ -1,12 +1,14 @@
 class Solution {
-    public int rob(int[] num) {
-        int rob = 0; // max monney can get if rob current house
-        int notrob = 0; // max money can get if not rob current house
-        for (int i = 0; i < num.length; i++) {
-            int currob = notrob + num[i]; // if rob current value, previous house must not be robbed
-            notrob = Math.max(notrob, rob); // if not rob ith house, take the max value of robbed (i-1)th house and not rob (i-1)th house
-            rob = currob;
+    public int rob(int[] nums) {
+        if(nums.length==1) return nums[0];
+        if(nums.length==2) return Math.max(nums[0],nums[1]);
+        int dp [] = new int[nums.length+1];
+        dp[1] = nums[0];
+        dp[2] = Math.max(nums[0],nums[1]);
+        for(int i =3; i <= nums.length;i++){
+            dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i-1]);
         }
-        return Math.max(rob, notrob);
+
+        return dp[nums.length];
     }
 }
