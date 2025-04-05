@@ -344,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2465-shifting-letters-ii](https://github.com/ashirvad47/L.C.D/tree/master/2465-shifting-letters-ii) |
 | [2580-circular-sentence](https://github.com/ashirvad47/L.C.D/tree/master/2580-circular-sentence) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/ashirvad47/L.C.D/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2757-count-of-integers](https://github.com/ashirvad47/L.C.D/tree/master/2757-count-of-integers) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/ashirvad47/L.C.D/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/ashirvad47/L.C.D/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/ashirvad47/L.C.D/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -478,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 | [2448-count-number-of-bad-pairs](https://github.com/ashirvad47/L.C.D/tree/master/2448-count-number-of-bad-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/ashirvad47/L.C.D/tree/master/2716-prime-subtraction-operation) |
+| [2757-count-of-integers](https://github.com/ashirvad47/L.C.D/tree/master/2757-count-of-integers) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/ashirvad47/L.C.D/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2812-find-the-maximum-achievable-number](https://github.com/ashirvad47/L.C.D/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
@@ -513,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2262-solving-questions-with-brainpower](https://github.com/ashirvad47/L.C.D/tree/master/2262-solving-questions-with-brainpower) |
 | [2554-minimum-total-distance-traveled](https://github.com/ashirvad47/L.C.D/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/2586-longest-square-streak-in-an-array) |
+| [2757-count-of-integers](https://github.com/ashirvad47/L.C.D/tree/master/2757-count-of-integers) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Greedy
 |  |
