@@ -93,3 +93,6 @@ class Solution {
         return sum;
     }
 }
+
+
+//learn digit dp properly before solving this again
