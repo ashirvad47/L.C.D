@@ -13,7 +13,6 @@ class Solution {
             if(nums[i]!=0) {
                 nums[idx]=nums[i];
                 idx++;
-                System.out.println(idx);
             }
         }
         for(int i=nums.length-count; i<nums.length;i++) nums[i]=0;
