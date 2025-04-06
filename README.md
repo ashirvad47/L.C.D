@@ -166,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/ashirvad47/L.C.D/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/ashirvad47/L.C.D/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
+| [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/ashirvad47/L.C.D/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashirvad47/L.C.D/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/2107-find-unique-binary-string) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/ashirvad47/L.C.D/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -335,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1894-merge-strings-alternately](https://github.com/ashirvad47/L.C.D/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ashirvad47/L.C.D/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/ashirvad47/L.C.D/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
+| [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/ashirvad47/L.C.D/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/ashirvad47/L.C.D/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ashirvad47/L.C.D/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/2107-find-unique-binary-string) |
