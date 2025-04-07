@@ -21,17 +21,16 @@ class Solution {
         if (memo[idx][currSum] != null)
             return memo[idx][currSum];
 
-        boolean found = false;
+        // boolean found = false;
         for (int i = idx; i < nums.length; i++) {
             if (currSum + nums[i] <= target) {
                 if (helper(nums, i + 1, target, currSum + nums[i], memo)) {
-                    found = true;
-                    break;
+                    return true;
                 }
             }
         }
 
-        memo[idx][currSum] = found;
-        return found;
+        memo[idx][currSum] = false;
+        return false;
     }
 }
