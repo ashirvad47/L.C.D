@@ -1,36 +1,19 @@
 class Solution {
     public boolean canPartition(int[] nums) {
         int sum = 0;
-        for (int i : nums)
-            sum += i;
-        if (sum % 2 != 0)
-            return false;
+        for (int num : nums) sum += num;
+        if (sum % 2 != 0) return false;
         int target = sum / 2;
 
-       Boolean[][] memo = new Boolean[nums.length][target + 1];
+        boolean[] dp = new boolean[target + 1];
+        dp[0] = true; 
 
-        return helper(nums, 0, target, 0, memo);
-    }
-
-    private boolean helper(int[] nums, int idx, int target, int currSum, Boolean[][] memo) {
-        if (currSum == target)
-            return true;
-        if (idx >= nums.length)
-            return false;
-
-        if (memo[idx][currSum] != null)
-            return memo[idx][currSum];
-
-        // boolean found = false;
-        for (int i = idx; i < nums.length; i++) {
-            if (currSum + nums[i] <= target) {
-                if (helper(nums, i + 1, target, currSum + nums[i], memo)) {
-                    return true;
-                }
+        for (int num : nums) {
+            for (int j = target; j >= num; j--) {
+                dp[j] = dp[j] || dp[j - num];
             }
         }
 
-        memo[idx][currSum] = false;
-        return false;
+        return dp[target];
     }
 }
