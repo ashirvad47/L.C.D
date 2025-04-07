@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0238-product-of-array-except-self](https://github.com/ashirvad47/L.C.D/tree/master/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/ashirvad47/L.C.D/tree/master/0274-h-index) |
 | [0283-move-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/ashirvad47/L.C.D/tree/master/0287-find-the-duplicate-number) |
 | [0289-game-of-life](https://github.com/ashirvad47/L.C.D/tree/master/0289-game-of-life) |
 | [0300-longest-increasing-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0300-longest-increasing-subsequence) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
@@ -406,6 +407,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/ashirvad47/L.C.D/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/ashirvad47/L.C.D/tree/master/0287-find-the-duplicate-number) |
 | [0345-reverse-vowels-of-a-string](https://github.com/ashirvad47/L.C.D/tree/master/0345-reverse-vowels-of-a-string) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -619,6 +621,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/ashirvad47/L.C.D/tree/master/0209-minimum-size-subarray-sum) |
 | [0222-count-complete-tree-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/ashirvad47/L.C.D/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0300-longest-increasing-subsequence) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ashirvad47/L.C.D/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -896,6 +899,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0078-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ashirvad47/L.C.D/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0222-count-complete-tree-nodes) |
+| [0287-find-the-duplicate-number](https://github.com/ashirvad47/L.C.D/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/ashirvad47/L.C.D/tree/master/0338-counting-bits) |
 | [1940-maximum-xor-for-each-query](https://github.com/ashirvad47/L.C.D/tree/master/1940-maximum-xor-for-each-query) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashirvad47/L.C.D/tree/master/1993-sum-of-all-subset-xor-totals) |
