@@ -4,16 +4,25 @@ class Solution {
         for (int num : nums) sum += num;
         if (sum % 2 != 0) return false;
         int target = sum / 2;
+        int n = nums.length;
 
-        boolean[] dp = new boolean[target + 1];
-        dp[0] = true; 
+        boolean[][] dp = new boolean[n + 1][target + 1];
 
-        for (int num : nums) {
-            for (int j = target; j >= num; j--) {
-                dp[j] = dp[j] || dp[j - num];
+        // Base case: sum 0 is always possible
+        for (int i = 0; i <= n; i++)
+            dp[i][0] = true;
+
+        // Fill the dp table
+        for (int i = 1; i <= n; i++) {
+            int num = nums[i - 1];
+            for (int j = 1; j <= target; j++) {
+                dp[i][j] = dp[i - 1][j];
+
+                if (j >=  num)
+                    dp[i][j] = dp[i][j] || dp[i - 1][j - num];
             }
         }
 
-        return dp[target];
+        return dp[n][target];
     }
 }
