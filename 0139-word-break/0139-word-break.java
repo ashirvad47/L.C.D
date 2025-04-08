@@ -32,18 +32,27 @@
 
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
-        boolean[] tab = new boolean[s.length() + 1];
-        tab[0] = true;
+        Set<String> dict = new HashSet<>(wordDict);
+        Queue<Integer> queue = new LinkedList<>();
+        boolean[] visited = new boolean[s.length()];
 
-        for(int i = 1; i <= s.length(); i++) {
-            for(int j = i - 1; j >= 0; j--) {
-                if(tab[j] && wordDict.contains(s.substring(j, i))) {
-                    tab[i] = true;
-                    break;
+        queue.offer(0);
+
+        while (!queue.isEmpty()) {
+            int start = queue.poll();
+
+            if (visited[start]) continue;
+
+            for (int end = start + 1; end <= s.length(); end++) {
+                if (dict.contains(s.substring(start, end))) {
+                    if (end == s.length()) return true;
+                    queue.offer(end);
                 }
             }
+
+            visited[start] = true;
         }
 
-        return tab[s.length()];
+        return false;
     }
 }
