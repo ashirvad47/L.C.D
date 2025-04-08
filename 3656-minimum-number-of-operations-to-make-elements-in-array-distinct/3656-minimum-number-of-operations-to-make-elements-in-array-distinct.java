@@ -12,8 +12,6 @@ class Solution {
         
         if(firstRepeatIndex == -1) return 0; 
         
-        
-        int elementsToRemove = firstRepeatIndex + 1;
-        return (elementsToRemove + 2) / 3; 
+        return (firstRepeatIndex+3) / 3; 
     }
 }
