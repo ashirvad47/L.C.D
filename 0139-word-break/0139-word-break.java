@@ -11,7 +11,7 @@ class Solution {
             return memo[idx];
 
         boolean found = false;
-        for(int i =idx+1;i <= s.length();i++){
+        for(int i =idx;i <= s.length();i++){
             String pref = s.substring(idx,i);
 
             if(wordDict.contains(pref)){
