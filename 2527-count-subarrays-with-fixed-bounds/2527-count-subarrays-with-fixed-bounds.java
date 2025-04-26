@@ -1,25 +1,23 @@
 class Solution {
     public long countSubarrays(int[] nums, int minK, int maxK) {
-        int lastInvalid = -1;
-        int lastMinK = -1;
-        int lastMaxK = -1;
         long count = 0;
-
+        int leftBound = -1;
+        int lastmin = -1;
+        int lastmax = -1;
+        
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] < minK || nums[i] > maxK) {
-                lastInvalid = i;
-                lastMinK = -1;
-                lastMaxK = -1;
-            } else {
-                if (nums[i] == minK) lastMinK = i;
-                if (nums[i] == maxK) lastMaxK = i;
-
-                if (lastMinK != -1 && lastMaxK != -1) {
-                    count += Math.max(0, Math.min(lastMinK, lastMaxK) - lastInvalid);
-                }
-            }
+            if (nums[i] < minK || nums[i] > maxK) 
+                leftBound = i; 
+            if (nums[i] == minK) 
+                lastmin = i;   
+            if (nums[i] == maxK) 
+                lastmax = i;  
+            
+            int start = Math.min(lastmin, lastmax);
+            if (start > leftBound) 
+                count += start - leftBound; 
         }
-
+        
         return count;
     }
 }
