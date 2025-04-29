@@ -19,28 +19,31 @@ class Solution {
         if (root.left == null && root.right == null)
             return root;
 
-        int maxHeight = largestDepth(root);
+        int maxDepth = largestHeight(root)-1;
 
-        return lcaDeepestLeaves(root, 0, maxHeight);
+        return lcaDeepestLeaves(root, 0, maxDepth);
 
     }
 
     private TreeNode lcaDeepestLeaves(TreeNode node, int depth, int maxDepth) {
         if (node == null)
             return null;
-        if (depth == maxDepth - 1)
+        if (depth == maxDepth)
             return node;
+
         TreeNode L = lcaDeepestLeaves(node.left, depth + 1, maxDepth);
         TreeNode R = lcaDeepestLeaves(node.right, depth + 1, maxDepth);
+
         if (L != null && R != null)
             return node;
+            
         return (L != null) ? L : R;
     }
 
-    public int largestDepth(TreeNode root) {
+    public int largestHeight(TreeNode root) {
         if (root == null)
             return 0;
-        return 1 + Math.max(largestDepth(root.left), largestDepth(root.right));
+        return 1 + Math.max(largestHeight(root.left), largestHeight(root.right));
     }
 
 }
