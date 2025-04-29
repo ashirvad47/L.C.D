@@ -21,6 +21,7 @@ class Solution {
 
         for(int right =0,left =0; right < nums.length;right++ ){
             if(nums[right]==max) freq++;
+            
             while(freq>=k){
                 count += nums.length - right;
                 if(nums[left]==max) freq--;
