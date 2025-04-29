@@ -37,7 +37,8 @@ class Solution {
         if (L != null && R != null)
             return node;
             
-        return (L != null) ? L : R;
+        else if (L==null) return R;
+        else /*if(R==null)*/ return L;
     }
 
     public int largestHeight(TreeNode root) {
