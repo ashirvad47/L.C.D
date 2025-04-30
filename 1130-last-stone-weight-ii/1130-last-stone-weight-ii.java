@@ -58,7 +58,7 @@ class Solution {
             sum += stone;
         }
         
-        boolean[][] memo = new boolean[stones.length + 1][sum + 1];
+        boolean[][] memo = new boolean[stones.length + 1][sum/2+1];
         
         for (int i = 0; i <= stones.length; i++) {
             memo[i][0] = true;
