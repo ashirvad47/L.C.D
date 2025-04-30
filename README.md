@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/ashirvad47/L.C.D/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0952-word-subsets) |
 | [1036-rotting-oranges](https://github.com/ashirvad47/L.C.D/tree/master/1036-rotting-oranges) |
+| [1130-last-stone-weight-ii](https://github.com/ashirvad47/L.C.D/tree/master/1130-last-stone-weight-ii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ashirvad47/L.C.D/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/ashirvad47/L.C.D/tree/master/1364-tuple-with-same-product) |
@@ -537,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0416-partition-equal-subset-sum](https://github.com/ashirvad47/L.C.D/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1130-last-stone-weight-ii](https://github.com/ashirvad47/L.C.D/tree/master/1130-last-stone-weight-ii) |
 | [1170-shortest-common-supersequence](https://github.com/ashirvad47/L.C.D/tree/master/1170-shortest-common-supersequence) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashirvad47/L.C.D/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
