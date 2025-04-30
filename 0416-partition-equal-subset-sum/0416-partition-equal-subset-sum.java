@@ -1,28 +1,24 @@
 class Solution {
     public boolean canPartition(int[] nums) {
-        int sum = 0;
-        for (int num : nums)
-            sum += num;
-        if (sum % 2 != 0)
-            return false;
-        int target = sum / 2;
-        int n = nums.length;
+        int sum =0;
+        for(int i : nums) sum+= i;
 
-        boolean[] dp = new boolean[target + 1];
+        if(sum%2!=0) return false;
 
-        // Base case: sum 0 is always possible
-        dp[0] = true;
+        boolean dp[][] = new boolean [nums.length+1][(sum/2)+1];
 
-        // Fill the dp table
-        for (int num : nums) {
-            for (int j = target; j >= num; j--) {
-                dp[j] = dp[j] || dp[j - num];
+        for(int i =0; i< nums.length+1;i++) dp[i][0]=true;
+
+        for(int i =1; i< dp.length;i++){
+            for(int j =1; j < dp[0].length;j++){
+                if(nums[i-1]<=j){
+                    dp[i][j]= dp[i-1][j-nums[i-1]] || dp[i-1][j];
+                }else{
+                    dp[i][j]= dp[i-1][j];
+                }
             }
         }
 
-        return dp[target];
+        return dp[nums.length][sum/2];
     }
 }
-
-
-//SEE ALL 3 APPROACHES FOR REVISION
