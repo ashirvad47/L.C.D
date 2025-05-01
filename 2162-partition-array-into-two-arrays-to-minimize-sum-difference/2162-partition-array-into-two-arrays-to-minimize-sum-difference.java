@@ -1,72 +1,78 @@
 class Solution {
     public int minimumDifference(int[] nums) {
-        int m = nums.length, N = m/2;
-        int total = 0;
-        for (int x : nums) total += x;
-
-        // 1) split into two halves
-        int[] A = Arrays.copyOfRange(nums, 0, N);
-        int[] B = Arrays.copyOfRange(nums, N, m);
-
-        // 2) generate all sums by pick‐count for each half
-        List<List<Integer>> sumsA = new ArrayList<>(N+1);
-        List<List<Integer>> sumsB = new ArrayList<>(N+1);
-        for (int i = 0; i <= N; i++) {
-            sumsA.add(new ArrayList<>());
-            sumsB.add(new ArrayList<>());
+        int n = nums.length / 2; 
+        
+        int totalSum = 0;
+        for (int num : nums) {
+            totalSum += num;
         }
-
-        // helper to fill sumsX
-        fillSubSums(A, sumsA);
-        fillSubSums(B, sumsB);
-
-        // 3) sort each sumsB[k] for binary‐search
-        for (int k = 0; k <= N; k++) {
-            Collections.sort(sumsB.get(k));
-        }
-
-        int best = Integer.MAX_VALUE;
-        int half = total / 2;
-
-        // 4) meet‐in‐the‐middle: for each pick‐count k in first half,
-        //    look in second half at pick‐count N-k
-        for (int k = 0; k <= N; k++) {
-            List<Integer> listA = sumsA.get(k);
-            List<Integer> listB = sumsB.get(N - k);
-            for (int s1 : listA) {
-                // target sum for s2 to get close to total/2
-                int tgt = half - s1;
-                int idx = Collections.binarySearch(listB, tgt);
-                if (idx < 0) idx = -idx - 1;
-
-                // check the two neighbors around insertion point
-                if (idx < listB.size()) {
-                    int s2 = listB.get(idx);
-                    best = Math.min(best, Math.abs(total - 2*(s1 + s2)));
-                }
-                if (idx > 0) {
-                    int s2 = listB.get(idx - 1);
-                    best = Math.min(best, Math.abs(total - 2*(s1 + s2)));
-                }
-            }
-        }
-
-        return best;
-    }
-
-    // Enumerate all subsets of arr, grouping their sums by subset-size
-    private void fillSubSums(int[] arr, List<List<Integer>> sums) {
-        int n = arr.length;
-        int maxMask = 1 << n;
-        for (int mask = 0; mask < maxMask; mask++) {
-            int cnt = Integer.bitCount(mask);
-            int s = 0;
+        
+        int[] firstHalf = Arrays.copyOfRange(nums, 0, n);
+        int[] secondHalf = Arrays.copyOfRange(nums, n, nums.length);
+        
+        Map<Integer, List<Integer>> firstHalfSums = new HashMap<>();
+        
+        for (int mask = 0; mask < (1 << n); mask++) {
+            int sum = 0;
+            int count = 0;
+            
             for (int i = 0; i < n; i++) {
                 if ((mask & (1 << i)) != 0) {
-                    s += arr[i];
+                    sum += firstHalf[i];
+                    count++;
                 }
             }
-            sums.get(cnt).add(s);
+            
+            firstHalfSums.putIfAbsent(count, new ArrayList<>());
+            firstHalfSums.get(count).add(sum);
         }
+        
+        for (List<Integer> sums : firstHalfSums.values()) {
+            Collections.sort(sums);
+        }
+        
+        int minDiff = Integer.MAX_VALUE;
+        
+        for (int mask = 0; mask < (1 << n); mask++) {
+            int sum = 0;
+            int count = 0;
+            
+            for (int i = 0; i < n; i++) {
+                if ((mask & (1 << i)) != 0) {
+                    sum += secondHalf[i];
+                    count++;
+                }
+            }
+            
+            if (firstHalfSums.containsKey(n - count)) {
+                List<Integer> complementSums = firstHalfSums.get(n - count);
+                
+                int target = (totalSum - 2 * sum) / 2;
+                int idx = Collections.binarySearch(complementSums, target);
+                
+                if (idx >= 0) {
+                    int firstSum = complementSums.get(idx) + sum;
+                    int secondSum = totalSum - firstSum;
+                    minDiff = Math.min(minDiff, Math.abs(firstSum - secondSum));
+                } 
+                else {
+                    idx = -idx - 1;
+                    
+                    if (idx < complementSums.size()) {
+                        int firstSum = complementSums.get(idx) + sum;
+                        int secondSum = totalSum - firstSum;
+                        minDiff = Math.min(minDiff, Math.abs(firstSum - secondSum));
+                    }
+                    
+                    if (idx > 0) {
+                        int firstSum = complementSums.get(idx - 1) + sum;
+                        int secondSum = totalSum - firstSum;
+                        minDiff = Math.min(minDiff, Math.abs(firstSum - secondSum));
+                    }
+                }
+            }
+        }
+        
+        return minDiff;
     }
 }
