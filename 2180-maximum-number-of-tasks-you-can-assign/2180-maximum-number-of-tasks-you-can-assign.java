@@ -1,66 +1,86 @@
-import java.util.*;
-
 class Solution {
     public int maxTaskAssign(int[] tasks, int[] workers, int pills, int strength) {
-        Arrays.sort(tasks);  
-        Arrays.sort(workers); 
+        int numTasks = tasks.length;
+        int numWorkers = workers.length;
         
-        int left = 0, right = Math.min(tasks.length, workers.length);
-        int ans = 0;
+        Arrays.sort(tasks);     
+        Arrays.sort(workers);  
+        
+        int left = 0;
+        int right = Math.min(numTasks, numWorkers);
         
         while (left <= right) {
             int mid = left + (right - left) / 2;
-            if (canAssign(tasks, workers, pills, strength, mid)) {
-                ans = mid;
-                left = mid + 1; 
+            
+            if (canCompleteTasksWithWorkers(tasks, workers, pills, strength, mid, numWorkers - mid)) {
+                left = mid + 1;  
             } else {
-                right = mid - 1;
+                right = mid - 1; 
             }
         }
-        return ans;
+        
+        return right;
     }
     
-    private boolean canAssign(int[] tasks, int[] workers, int pills, int strength, int k) {
-        int[] selectedTasks = Arrays.copyOf(tasks, k);
+    
+    private boolean canCompleteTasksWithWorkers(int[] tasks, int[] workers, int pillsRemaining, 
+                                             int pillStrength, int numTasksToComplete, int startWorkerIndex) {
         
-        int[] selectedWorkers = new int[k];
-        for (int i = 0; i < k; i++) {
-            selectedWorkers[i] = workers[workers.length - k + i];
-        }
+        int[] taskQueue = new int[numTasksToComplete];
+        int queueWritePos = 0;  
+        int queueReadPos = 0;   
         
-        TreeMap<Integer, Integer> availableWorkers = new TreeMap<>();
-        for (int worker : selectedWorkers) {
-            availableWorkers.put(worker, availableWorkers.getOrDefault(worker, 0) + 1);
-        }
+        int taskIndex = 0;
         
-        for (int i = k - 1; i >= 0; i--) {
-            int task = selectedTasks[i];
+        for (int workerIndex = 0; workerIndex < numTasksToComplete; workerIndex++) {
+            int currentWorkerStrength = workers[startWorkerIndex + workerIndex];
             
-            Integer strongEnoughWorker = availableWorkers.ceilingKey(task);
-            if (strongEnoughWorker != null) {
-                decrementOrRemove(availableWorkers, strongEnoughWorker);
-            } else if (pills > 0) {
-                Integer potentialWorker = availableWorkers.ceilingKey(task - strength);
-                if (potentialWorker != null) {
-                    decrementOrRemove(availableWorkers, potentialWorker);
-                    pills--;
-                } else {
+            if (queueReadPos == queueWritePos) {
+                
+                if (currentWorkerStrength >= tasks[taskIndex]) {
+                    taskIndex++;
+                    continue;
+                }
+                
+                if (pillsRemaining == 0) {
+                    return false; 
+                }
+                
+                currentWorkerStrength += pillStrength;
+                pillsRemaining--;
+                
+                while (taskIndex < numTasksToComplete && currentWorkerStrength >= tasks[taskIndex]) {
+                    taskQueue[queueWritePos++] = tasks[taskIndex++];
+                }
+                
+                if (queueReadPos == queueWritePos) {
                     return false;
                 }
+                
+                queueWritePos--;
+                
             } else {
-                return false;
+                
+                if (currentWorkerStrength >= taskQueue[queueReadPos]) {
+                    queueReadPos++;
+                    continue;
+                }
+                
+                if (pillsRemaining == 0) {
+                    return false; 
+                }
+                
+                currentWorkerStrength += pillStrength;
+                pillsRemaining--;
+                
+                while (taskIndex < numTasksToComplete && currentWorkerStrength >= tasks[taskIndex]) {
+                    taskQueue[queueWritePos++] = tasks[taskIndex++];
+                }
+                
+                queueWritePos--;
             }
         }
         
-        return true;
-    }
-    
-    private void decrementOrRemove(TreeMap<Integer, Integer> map, int key) {
-        int count = map.get(key);
-        if (count == 1) {
-            map.remove(key);
-        } else {
-            map.put(key, count - 1);
-        }
+        return queueReadPos == queueWritePos;
     }
 }
