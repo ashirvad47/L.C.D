@@ -1,86 +1,60 @@
+import java.util.*;
+
 class Solution {
     public int maxTaskAssign(int[] tasks, int[] workers, int pills, int strength) {
         int numTasks = tasks.length;
         int numWorkers = workers.length;
         
-        Arrays.sort(tasks);     
-        Arrays.sort(workers);  
+        Arrays.sort(tasks);
+        Arrays.sort(workers);
         
-        int left = 0;
-        int right = Math.min(numTasks, numWorkers);
+        int minTasksToTry = 1;
+        int maxTasksToTry = Math.min(numWorkers, numTasks);
+        int maxCompletableTasks = 0;
         
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+        while (minTasksToTry <= maxTasksToTry) {
+            int tasksToTry = (minTasksToTry + maxTasksToTry) / 2;
             
-            if (canCompleteTasksWithWorkers(tasks, workers, pills, strength, mid, numWorkers - mid)) {
-                left = mid + 1;  
+            if (canCompleteTasks(tasks, workers, pills, strength, tasksToTry)) {
+                maxCompletableTasks = tasksToTry;
+                minTasksToTry = tasksToTry + 1;
             } else {
-                right = mid - 1; 
+                maxTasksToTry = tasksToTry - 1;
             }
         }
         
-        return right;
+        return maxCompletableTasks;
     }
     
-    
-    private boolean canCompleteTasksWithWorkers(int[] tasks, int[] workers, int pillsRemaining, 
-                                             int pillStrength, int numTasksToComplete, int startWorkerIndex) {
+    private boolean canCompleteTasks(int[] tasks, int[] workers, int pillsAvailable, int pillStrength, int tasksToComplete) {
+        int remainingPills = pillsAvailable;
+        int numWorkers = workers.length;
         
-        int[] taskQueue = new int[numTasksToComplete];
-        int queueWritePos = 0;  
-        int queueReadPos = 0;   
+        Deque<Integer> availableWorkers = new ArrayDeque<>();
+        int workerIndex = numWorkers - 1;
         
-        int taskIndex = 0;
-        
-        for (int workerIndex = 0; workerIndex < numTasksToComplete; workerIndex++) {
-            int currentWorkerStrength = workers[startWorkerIndex + workerIndex];
+        for (int taskIndex = tasksToComplete - 1; taskIndex >= 0; taskIndex--) {
+            int currentTask = tasks[taskIndex];
             
-            if (queueReadPos == queueWritePos) {
-                
-                if (currentWorkerStrength >= tasks[taskIndex]) {
-                    taskIndex++;
-                    continue;
-                }
-                
-                if (pillsRemaining == 0) {
-                    return false; 
-                }
-                
-                currentWorkerStrength += pillStrength;
-                pillsRemaining--;
-                
-                while (taskIndex < numTasksToComplete && currentWorkerStrength >= tasks[taskIndex]) {
-                    taskQueue[queueWritePos++] = tasks[taskIndex++];
-                }
-                
-                if (queueReadPos == queueWritePos) {
+            while (workerIndex >= numWorkers - tasksToComplete && 
+                   workers[workerIndex] + pillStrength >= currentTask) {
+                availableWorkers.addFirst(workers[workerIndex]);
+                workerIndex--;
+            }
+            
+            if (availableWorkers.isEmpty()) {
+                return false;
+            } else if (availableWorkers.getLast() >= currentTask) {
+                availableWorkers.pollLast();
+            } else {
+                if (remainingPills == 0) {
                     return false;
                 }
-                
-                queueWritePos--;
-                
-            } else {
-                
-                if (currentWorkerStrength >= taskQueue[queueReadPos]) {
-                    queueReadPos++;
-                    continue;
-                }
-                
-                if (pillsRemaining == 0) {
-                    return false; 
-                }
-                
-                currentWorkerStrength += pillStrength;
-                pillsRemaining--;
-                
-                while (taskIndex < numTasksToComplete && currentWorkerStrength >= tasks[taskIndex]) {
-                    taskQueue[queueWritePos++] = tasks[taskIndex++];
-                }
-                
-                queueWritePos--;
+                remainingPills--;
+                availableWorkers.pollFirst();
             }
         }
         
-        return queueReadPos == queueWritePos;
+        return true;
     }
 }
