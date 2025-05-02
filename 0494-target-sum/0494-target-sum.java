@@ -3,9 +3,9 @@ class Solution {
         int sum =0;
         for(int i : nums) sum+=i;
 
-        if(Math.abs(target) > sum || (sum+target)%2!=0) return 0;
+        if(target>sum || (sum-target)%2!=0) return 0;
 
-        int tar = (sum+target)/2;
+        int tar = (sum-target)/2;
 
         int dp [][] = new int [nums.length+1][tar+1];
 
