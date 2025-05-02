@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0407-trapping-rain-water-ii](https://github.com/ashirvad47/L.C.D/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/ashirvad47/L.C.D/tree/master/0416-partition-equal-subset-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ashirvad47/L.C.D/tree/master/0496-next-greater-element-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0052-n-queens-ii](https://github.com/ashirvad47/L.C.D/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ashirvad47/L.C.D/tree/master/0090-subsets-ii) |
+| [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/ashirvad47/L.C.D/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/ashirvad47/L.C.D/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ashirvad47/L.C.D/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -544,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0368-largest-divisible-subset](https://github.com/ashirvad47/L.C.D/tree/master/0368-largest-divisible-subset) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ashirvad47/L.C.D/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1130-last-stone-weight-ii](https://github.com/ashirvad47/L.C.D/tree/master/1130-last-stone-weight-ii) |
