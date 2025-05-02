@@ -84,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/ashirvad47/L.C.D/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ashirvad47/L.C.D/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1364-tuple-with-same-product](https://github.com/ashirvad47/L.C.D/tree/master/1364-tuple-with-same-product) |
+| [1393-maximum-value-of-k-coins-from-piles](https://github.com/ashirvad47/L.C.D/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1396-count-servers-that-communicate](https://github.com/ashirvad47/L.C.D/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ashirvad47/L.C.D/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -551,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1130-last-stone-weight-ii](https://github.com/ashirvad47/L.C.D/tree/master/1130-last-stone-weight-ii) |
 | [1170-shortest-common-supersequence](https://github.com/ashirvad47/L.C.D/tree/master/1170-shortest-common-supersequence) |
+| [1393-maximum-value-of-k-coins-from-piles](https://github.com/ashirvad47/L.C.D/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ashirvad47/L.C.D/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashirvad47/L.C.D/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -611,6 +613,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/ashirvad47/L.C.D/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/ashirvad47/L.C.D/tree/master/0238-product-of-array-except-self) |
+| [1393-maximum-value-of-k-coins-from-piles](https://github.com/ashirvad47/L.C.D/tree/master/1393-maximum-value-of-k-coins-from-piles) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/ashirvad47/L.C.D/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashirvad47/L.C.D/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
