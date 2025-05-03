@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0407-trapping-rain-water-ii](https://github.com/ashirvad47/L.C.D/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/ashirvad47/L.C.D/tree/master/0416-partition-equal-subset-sum) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0474-ones-and-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ashirvad47/L.C.D/tree/master/0496-next-greater-element-i) |
 | [0518-coin-change-ii](https://github.com/ashirvad47/L.C.D/tree/master/0518-coin-change-ii) |
@@ -342,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
+| [0474-ones-and-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0474-ones-and-zeroes) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0812-rotate-string](https://github.com/ashirvad47/L.C.D/tree/master/0812-rotate-string) |
@@ -555,6 +557,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0377-combination-sum-iv](https://github.com/ashirvad47/L.C.D/tree/master/0377-combination-sum-iv) |
 | [0392-is-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0392-is-subsequence) |
 | [0416-partition-equal-subset-sum](https://github.com/ashirvad47/L.C.D/tree/master/0416-partition-equal-subset-sum) |
+| [0474-ones-and-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/ashirvad47/L.C.D/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
