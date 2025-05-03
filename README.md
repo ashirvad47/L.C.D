@@ -509,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/ashirvad47/L.C.D/tree/master/0202-happy-number) |
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
+| [0279-perfect-squares](https://github.com/ashirvad47/L.C.D/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/ashirvad47/L.C.D/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
@@ -545,6 +546,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0124-binary-tree-maximum-path-sum](https://github.com/ashirvad47/L.C.D/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/ashirvad47/L.C.D/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/ashirvad47/L.C.D/tree/master/0198-house-robber) |
+| [0279-perfect-squares](https://github.com/ashirvad47/L.C.D/tree/master/0279-perfect-squares) |
 | [0300-longest-increasing-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/ashirvad47/L.C.D/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/ashirvad47/L.C.D/tree/master/0338-counting-bits) |
@@ -916,6 +918,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/ashirvad47/L.C.D/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ashirvad47/L.C.D/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/ashirvad47/L.C.D/tree/master/0226-invert-binary-tree) |
+| [0279-perfect-squares](https://github.com/ashirvad47/L.C.D/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/ashirvad47/L.C.D/tree/master/0322-coin-change) |
 | [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/ashirvad47/L.C.D/tree/master/0407-trapping-rain-water-ii) |
