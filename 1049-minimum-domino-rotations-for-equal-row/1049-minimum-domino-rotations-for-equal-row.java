@@ -16,8 +16,8 @@ class Solution {
 
         for(int i= 0; i < tops.length;i++){
             if(tops[i]!=target && bottoms[i]!=target)return -1;
-            if(tops[i]!= target) rotateTop++;
-            if(bottoms[i]!=target) rotateBottom++;
+            else if(tops[i]!= target) rotateTop++;
+            else if(bottoms[i]!=target) rotateBottom++;
         }
         return Math.min( rotateTop,rotateBottom);
     }
