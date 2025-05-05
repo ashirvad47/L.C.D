@@ -564,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/ashirvad47/L.C.D/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
+| [0806-domino-and-tromino-tiling](https://github.com/ashirvad47/L.C.D/tree/master/0806-domino-and-tromino-tiling) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1130-last-stone-weight-ii](https://github.com/ashirvad47/L.C.D/tree/master/1130-last-stone-weight-ii) |
 | [1170-shortest-common-supersequence](https://github.com/ashirvad47/L.C.D/tree/master/1170-shortest-common-supersequence) |
