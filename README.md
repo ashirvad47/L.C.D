@@ -349,6 +349,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [0474-ones-and-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0474-ones-and-zeroes) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
+| [0583-delete-operation-for-two-strings](https://github.com/ashirvad47/L.C.D/tree/master/0583-delete-operation-for-two-strings) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0812-rotate-string](https://github.com/ashirvad47/L.C.D/tree/master/0812-rotate-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
@@ -567,6 +568,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/ashirvad47/L.C.D/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
+| [0583-delete-operation-for-two-strings](https://github.com/ashirvad47/L.C.D/tree/master/0583-delete-operation-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/ashirvad47/L.C.D/tree/master/0806-domino-and-tromino-tiling) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1130-last-stone-weight-ii](https://github.com/ashirvad47/L.C.D/tree/master/1130-last-stone-weight-ii) |
