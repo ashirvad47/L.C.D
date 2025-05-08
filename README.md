@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ashirvad47/L.C.D/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/ashirvad47/L.C.D/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/ashirvad47/L.C.D/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/ashirvad47/L.C.D/tree/master/3643-zero-array-transformation-ii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/ashirvad47/L.C.D/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Backtracking
@@ -843,6 +844,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/ashirvad47/L.C.D/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/ashirvad47/L.C.D/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/ashirvad47/L.C.D/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -917,6 +919,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/ashirvad47/L.C.D/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/ashirvad47/L.C.D/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1110,6 +1113,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2583-divide-nodes-into-the-maximum-number-of-groups](https://github.com/ashirvad47/L.C.D/tree/master/2583-divide-nodes-into-the-maximum-number-of-groups) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/ashirvad47/L.C.D/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/ashirvad47/L.C.D/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/ashirvad47/L.C.D/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -1128,6 +1132,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0399-evaluate-division](https://github.com/ashirvad47/L.C.D/tree/master/0399-evaluate-division) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/ashirvad47/L.C.D/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+| [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/ashirvad47/L.C.D/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Topological Sort
 |  |
 | ------- |
