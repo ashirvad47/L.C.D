@@ -400,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3447-clear-digits](https://github.com/ashirvad47/L.C.D/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/ashirvad47/L.C.D/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/ashirvad47/L.C.D/tree/master/3455-minimum-length-of-string-after-operations) |
+| [3637-count-number-of-balanced-permutations](https://github.com/ashirvad47/L.C.D/tree/master/3637-count-number-of-balanced-permutations) |
 ## Counting
 |  |
 | ------- |
@@ -544,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2812-find-the-maximum-achievable-number](https://github.com/ashirvad47/L.C.D/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3637-count-number-of-balanced-permutations](https://github.com/ashirvad47/L.C.D/tree/master/3637-count-number-of-balanced-permutations) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -597,6 +599,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2586-longest-square-streak-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/2586-longest-square-streak-in-an-array) |
 | [2757-count-of-integers](https://github.com/ashirvad47/L.C.D/tree/master/2757-count-of-integers) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ashirvad47/L.C.D/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3637-count-number-of-balanced-permutations](https://github.com/ashirvad47/L.C.D/tree/master/3637-count-number-of-balanced-permutations) |
 ## Greedy
 |  |
 | ------- |
@@ -1174,6 +1177,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0062-unique-paths](https://github.com/ashirvad47/L.C.D/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/ashirvad47/L.C.D/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3637-count-number-of-balanced-permutations](https://github.com/ashirvad47/L.C.D/tree/master/3637-count-number-of-balanced-permutations) |
 ## Bitmask
 |  |
 | ------- |
