@@ -1,22 +1,30 @@
 class Solution {
+     int ans[] = new int[451];
+
     public int[] findEvenNumbers(int[] digits) {
-        int[] mpp = new int[10];
-        for (int d : digits) mpp[d]++;
-        List<Integer> res = new ArrayList<>();
-        for (int i = 1; i <= 9; i++) {
-            if (mpp[i] == 0) continue;
-            mpp[i]--;
-            for (int j = 0; j <= 9; j++) {
-                if (mpp[j] == 0) continue;
-                mpp[j]--;
-                for (int k = 0; k <= 8; k += 2) {
-                    if (mpp[k] == 0) continue;
-                    res.add(i*100 + j*10 + k);
+        int count[] = new int[10];
+        int size = 0;
+        for (int d : digits)
+            count[d]++;
+
+        for (int i = 1; i < 10; i++) {
+            if (count[i] == 0)
+                continue;
+            --count[i];
+            for (int j = 0; j < 10; j++) {
+                if (count[j] == 0)
+                    continue;
+                --count[j];
+                for (int k = 0; k < 10; k += 2) {
+                    if (count[k] == 0)
+                        continue;
+                    int num = i * 100 + j * 10 + k;
+                    ans[size++] = num;
                 }
-                mpp[j]++;
+                ++count[j];
             }
-            mpp[i]++;
+            ++count[i];
         }
-        return res.stream().mapToInt(Integer::intValue).toArray();
+        return Arrays.copyOf(ans, size);
     }
 }
