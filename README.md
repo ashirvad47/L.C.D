@@ -184,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/ashirvad47/L.C.D/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3639-zero-array-transformation-i](https://github.com/ashirvad47/L.C.D/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/ashirvad47/L.C.D/tree/master/3643-zero-array-transformation-ii) |
+| [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/ashirvad47/L.C.D/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Backtracking
 |  |
@@ -518,6 +519,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/ashirvad47/L.C.D/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ashirvad47/L.C.D/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ashirvad47/L.C.D/tree/master/3291-find-if-array-can-be-sorted) |
+| [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -655,6 +657,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2716-prime-subtraction-operation](https://github.com/ashirvad47/L.C.D/tree/master/2716-prime-subtraction-operation) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/ashirvad47/L.C.D/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/ashirvad47/L.C.D/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
 ## Counting Sort
 |  |
 | ------- |
@@ -694,6 +697,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3427-special-array-ii](https://github.com/ashirvad47/L.C.D/tree/master/3427-special-array-ii) |
 | [3639-zero-array-transformation-i](https://github.com/ashirvad47/L.C.D/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/ashirvad47/L.C.D/tree/master/3643-zero-array-transformation-ii) |
+| [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
 ## Trie
 |  |
 | ------- |
@@ -891,6 +895,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/ashirvad47/L.C.D/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/ashirvad47/L.C.D/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
 ## Bucket Sort
 |  |
 | ------- |
