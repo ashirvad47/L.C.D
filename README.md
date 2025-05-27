@@ -572,6 +572,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/ashirvad47/L.C.D/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2812-find-the-maximum-achievable-number](https://github.com/ashirvad47/L.C.D/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3172-divisible-and-non-divisible-sums-difference](https://github.com/ashirvad47/L.C.D/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashirvad47/L.C.D/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashirvad47/L.C.D/tree/master/3630-total-characters-in-string-after-transformations-ii) |
