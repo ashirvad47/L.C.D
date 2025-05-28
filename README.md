@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3291-find-if-array-can-be-sorted](https://github.com/ashirvad47/L.C.D/tree/master/3291-find-if-array-can-be-sorted) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/ashirvad47/L.C.D/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/ashirvad47/L.C.D/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3321-type-of-triangle](https://github.com/ashirvad47/L.C.D/tree/master/3321-type-of-triangle) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/ashirvad47/L.C.D/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
 | [3372-longest-strictly-increasing-or-strictly-decreasing-subarray](https://github.com/ashirvad47/L.C.D/tree/master/3372-longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/ashirvad47/L.C.D/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
@@ -527,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3219-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/ashirvad47/L.C.D/tree/master/3219-make-lexicographically-smallest-array-by-swapping-elements) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ashirvad47/L.C.D/tree/master/3291-find-if-array-can-be-sorted) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/ashirvad47/L.C.D/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3321-type-of-triangle](https://github.com/ashirvad47/L.C.D/tree/master/3321-type-of-triangle) |
 | [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
 ## Divide and Conquer
 |  |
@@ -573,6 +575,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2812-find-the-maximum-achievable-number](https://github.com/ashirvad47/L.C.D/tree/master/2812-find-the-maximum-achievable-number) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/ashirvad47/L.C.D/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3321-type-of-triangle](https://github.com/ashirvad47/L.C.D/tree/master/3321-type-of-triangle) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ashirvad47/L.C.D/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/ashirvad47/L.C.D/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/ashirvad47/L.C.D/tree/master/3630-total-characters-in-string-after-transformations-ii) |
