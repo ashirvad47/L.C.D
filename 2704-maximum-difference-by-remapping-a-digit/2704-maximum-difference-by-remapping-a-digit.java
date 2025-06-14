@@ -10,7 +10,7 @@ class Solution {
             if(c != '9' && toChange == 'a'){
                 toChange = c;
             }
-            if(toChange ==c && toChange != 'a'){
+            if(toChange ==c){
                 max += '9';
             }else {
                 max +=c;
@@ -23,7 +23,7 @@ class Solution {
             if(c != '0' && toChange == 'a'){
                 toChange = c;
             }
-            if(toChange ==c && toChange != 'a'){
+            if(toChange ==c){
                 min += '0';
             }else {
                 min +=c;
