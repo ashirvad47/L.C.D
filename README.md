@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2048-build-array-from-permutation](https://github.com/ashirvad47/L.C.D/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/ashirvad47/L.C.D/tree/master/2058-concatenation-of-array) |
 | [2107-find-unique-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/2107-find-unique-binary-string) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/ashirvad47/L.C.D/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2145-grid-game](https://github.com/ashirvad47/L.C.D/tree/master/2145-grid-game) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ashirvad47/L.C.D/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2164-two-best-non-overlapping-events](https://github.com/ashirvad47/L.C.D/tree/master/2164-two-best-non-overlapping-events) |
