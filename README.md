@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0518-coin-change-ii](https://github.com/ashirvad47/L.C.D/tree/master/0518-coin-change-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
+| [0594-longest-harmonious-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0594-longest-harmonious-subsequence) |
 | [0605-can-place-flowers](https://github.com/ashirvad47/L.C.D/tree/master/0605-can-place-flowers) |
 | [0739-daily-temperatures](https://github.com/ashirvad47/L.C.D/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
@@ -300,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0496-next-greater-element-i](https://github.com/ashirvad47/L.C.D/tree/master/0496-next-greater-element-i) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0594-longest-harmonious-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0896-smallest-subtree-with-all-the-deepest-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0896-smallest-subtree-with-all-the-deepest-nodes) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0169-majority-element](https://github.com/ashirvad47/L.C.D/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/ashirvad47/L.C.D/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/ashirvad47/L.C.D/tree/master/0383-ransom-note) |
+| [0594-longest-harmonious-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0594-longest-harmonious-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ashirvad47/L.C.D/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1160-letter-tile-possibilities](https://github.com/ashirvad47/L.C.D/tree/master/1160-letter-tile-possibilities) |
@@ -522,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0368-largest-divisible-subset](https://github.com/ashirvad47/L.C.D/tree/master/0368-largest-divisible-subset) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/ashirvad47/L.C.D/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0594-longest-harmonious-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0594-longest-harmonious-subsequence) |
 | [0692-top-k-frequent-words](https://github.com/ashirvad47/L.C.D/tree/master/0692-top-k-frequent-words) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ashirvad47/L.C.D/tree/master/1468-check-if-n-and-its-double-exist) |
@@ -862,6 +866,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0209-minimum-size-subarray-sum](https://github.com/ashirvad47/L.C.D/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/ashirvad47/L.C.D/tree/master/0219-contains-duplicate-ii) |
 | [0567-permutation-in-string](https://github.com/ashirvad47/L.C.D/tree/master/0567-permutation-in-string) |
+| [0594-longest-harmonious-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0594-longest-harmonious-subsequence) |
 | [1755-defuse-the-bomb](https://github.com/ashirvad47/L.C.D/tree/master/1755-defuse-the-bomb) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/ashirvad47/L.C.D/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
