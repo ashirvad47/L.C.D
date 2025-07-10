@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3643-zero-array-transformation-ii](https://github.com/ashirvad47/L.C.D/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/ashirvad47/L.C.D/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/ashirvad47/L.C.D/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ashirvad47/L.C.D/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/ashirvad47/L.C.D/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 ## Backtracking
@@ -706,6 +707,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/ashirvad47/L.C.D/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/ashirvad47/L.C.D/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3647-zero-array-transformation-iii](https://github.com/ashirvad47/L.C.D/tree/master/3647-zero-array-transformation-iii) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/ashirvad47/L.C.D/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ashirvad47/L.C.D/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Counting Sort
 |  |
@@ -1012,6 +1014,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2351-number-of-ways-to-buy-pens-and-pencils](https://github.com/ashirvad47/L.C.D/tree/master/2351-number-of-ways-to-buy-pens-and-pencils) |
 | [3201-distribute-candies-among-children-ii](https://github.com/ashirvad47/L.C.D/tree/master/3201-distribute-candies-among-children-ii) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ashirvad47/L.C.D/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/ashirvad47/L.C.D/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/ashirvad47/L.C.D/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Matrix
 |  |
