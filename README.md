@@ -660,6 +660,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashirvad47/L.C.D/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/ashirvad47/L.C.D/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/ashirvad47/L.C.D/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/ashirvad47/L.C.D/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ashirvad47/L.C.D/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2164-two-best-non-overlapping-events](https://github.com/ashirvad47/L.C.D/tree/master/2164-two-best-non-overlapping-events) |
@@ -1206,6 +1207,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [0070-climbing-stairs](https://github.com/ashirvad47/L.C.D/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/ashirvad47/L.C.D/tree/master/0139-word-break) |
+| [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/ashirvad47/L.C.D/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 ## Queue
 |  |
 | ------- |
