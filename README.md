@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ashirvad47/L.C.D/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/ashirvad47/L.C.D/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/ashirvad47/L.C.D/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3791-fruits-into-baskets-iii](https://github.com/ashirvad47/L.C.D/tree/master/3791-fruits-into-baskets-iii) |
 ## Backtracking
 |  |
 | ------- |
@@ -839,6 +840,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/ashirvad47/L.C.D/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/ashirvad47/L.C.D/tree/master/3427-special-array-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/ashirvad47/L.C.D/tree/master/3643-zero-array-transformation-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/ashirvad47/L.C.D/tree/master/3791-fruits-into-baskets-iii) |
 ## Recursion
 |  |
 | ------- |
@@ -1261,6 +1263,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ashirvad47/L.C.D/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2434-design-a-number-container-system](https://github.com/ashirvad47/L.C.D/tree/master/2434-design-a-number-container-system) |
 | [2868-continuous-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/2868-continuous-subarrays) |
+| [3791-fruits-into-baskets-iii](https://github.com/ashirvad47/L.C.D/tree/master/3791-fruits-into-baskets-iii) |
 ## Monotonic Queue
 |  |
 | ------- |
@@ -1276,6 +1279,7 @@ A collection of LeetCode questions to ace the coding interview!
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/ashirvad47/L.C.D/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3789-maximize-subarrays-after-removing-one-conflicting-pair](https://github.com/ashirvad47/L.C.D/tree/master/3789-maximize-subarrays-after-removing-one-conflicting-pair) |
+| [3791-fruits-into-baskets-iii](https://github.com/ashirvad47/L.C.D/tree/master/3791-fruits-into-baskets-iii) |
 ## Graph
 |  |
 | ------- |
