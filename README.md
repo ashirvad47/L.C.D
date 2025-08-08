@@ -608,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0368-largest-divisible-subset](https://github.com/ashirvad47/L.C.D/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
+| [0826-soup-servings](https://github.com/ashirvad47/L.C.D/tree/master/0826-soup-servings) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashirvad47/L.C.D/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ashirvad47/L.C.D/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ashirvad47/L.C.D/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -671,6 +672,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0647-palindromic-substrings](https://github.com/ashirvad47/L.C.D/tree/master/0647-palindromic-substrings) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/ashirvad47/L.C.D/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/ashirvad47/L.C.D/tree/master/0806-domino-and-tromino-tiling) |
+| [0826-soup-servings](https://github.com/ashirvad47/L.C.D/tree/master/0826-soup-servings) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/ashirvad47/L.C.D/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1105-uncrossed-lines](https://github.com/ashirvad47/L.C.D/tree/master/1105-uncrossed-lines) |
@@ -1354,4 +1356,8 @@ A collection of LeetCode questions to ace the coding interview!
 |  |
 | ------- |
 | [2162-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/ashirvad47/L.C.D/tree/master/2162-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Probability and Statistics
+|  |
+| ------- |
+| [0826-soup-servings](https://github.com/ashirvad47/L.C.D/tree/master/0826-soup-servings) |
 <!---LeetCode Topics End-->
