@@ -604,6 +604,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0189-rotate-array](https://github.com/ashirvad47/L.C.D/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/ashirvad47/L.C.D/tree/master/0202-happy-number) |
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
+| [0231-power-of-two](https://github.com/ashirvad47/L.C.D/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/ashirvad47/L.C.D/tree/master/0279-perfect-squares) |
 | [0368-largest-divisible-subset](https://github.com/ashirvad47/L.C.D/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
@@ -854,6 +855,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0050-powx-n](https://github.com/ashirvad47/L.C.D/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
+| [0231-power-of-two](https://github.com/ashirvad47/L.C.D/tree/master/0231-power-of-two) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/ashirvad47/L.C.D/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -1145,6 +1147,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0078-subsets](https://github.com/ashirvad47/L.C.D/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ashirvad47/L.C.D/tree/master/0090-subsets-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/ashirvad47/L.C.D/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/ashirvad47/L.C.D/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/ashirvad47/L.C.D/tree/master/0287-find-the-duplicate-number) |
 | [0338-counting-bits](https://github.com/ashirvad47/L.C.D/tree/master/0338-counting-bits) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/ashirvad47/L.C.D/tree/master/0934-bitwise-ors-of-subarrays) |
