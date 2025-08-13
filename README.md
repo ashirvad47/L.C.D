@@ -609,6 +609,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/ashirvad47/L.C.D/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/ashirvad47/L.C.D/tree/master/0279-perfect-squares) |
+| [0326-power-of-three](https://github.com/ashirvad47/L.C.D/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/ashirvad47/L.C.D/tree/master/0368-largest-divisible-subset) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ashirvad47/L.C.D/tree/master/0380-insert-delete-getrandom-o1) |
 | [0670-maximum-swap](https://github.com/ashirvad47/L.C.D/tree/master/0670-maximum-swap) |
@@ -860,6 +861,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0206-reverse-linked-list](https://github.com/ashirvad47/L.C.D/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/ashirvad47/L.C.D/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/ashirvad47/L.C.D/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/ashirvad47/L.C.D/tree/master/0326-power-of-three) |
 | [1197-parsing-a-boolean-expression](https://github.com/ashirvad47/L.C.D/tree/master/1197-parsing-a-boolean-expression) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/ashirvad47/L.C.D/tree/master/3600-find-the-k-th-character-in-string-game-i) |
