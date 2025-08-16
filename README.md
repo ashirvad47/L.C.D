@@ -619,6 +619,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [1146-greatest-common-divisor-of-strings](https://github.com/ashirvad47/L.C.D/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ashirvad47/L.C.D/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/ashirvad47/L.C.D/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1448-maximum-69-number](https://github.com/ashirvad47/L.C.D/tree/master/1448-maximum-69-number) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ashirvad47/L.C.D/tree/master/1477-product-of-the-last-k-numbers) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/ashirvad47/L.C.D/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/ashirvad47/L.C.D/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
@@ -727,6 +728,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0780-max-chunks-to-make-sorted](https://github.com/ashirvad47/L.C.D/tree/master/0780-max-chunks-to-make-sorted) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/ashirvad47/L.C.D/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1304-longest-happy-string](https://github.com/ashirvad47/L.C.D/tree/master/1304-longest-happy-string) |
+| [1448-maximum-69-number](https://github.com/ashirvad47/L.C.D/tree/master/1448-maximum-69-number) |
 | [1502-construct-k-palindrome-strings](https://github.com/ashirvad47/L.C.D/tree/master/1502-construct-k-palindrome-strings) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/ashirvad47/L.C.D/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ashirvad47/L.C.D/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
