@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0474-ones-and-zeroes](https://github.com/ashirvad47/L.C.D/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/ashirvad47/L.C.D/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ashirvad47/L.C.D/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/ashirvad47/L.C.D/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/ashirvad47/L.C.D/tree/master/0518-coin-change-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/ashirvad47/L.C.D/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
@@ -1056,6 +1057,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0054-spiral-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/ashirvad47/L.C.D/tree/master/0067-add-binary) |
 | [0289-game-of-life](https://github.com/ashirvad47/L.C.D/tree/master/0289-game-of-life) |
+| [0498-diagonal-traverse](https://github.com/ashirvad47/L.C.D/tree/master/0498-diagonal-traverse) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/ashirvad47/L.C.D/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/ashirvad47/L.C.D/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2048-build-array-from-permutation](https://github.com/ashirvad47/L.C.D/tree/master/2048-build-array-from-permutation) |
@@ -1099,6 +1101,7 @@ A collection of LeetCode questions to ace the coding interview!
 | [0200-number-of-islands](https://github.com/ashirvad47/L.C.D/tree/master/0200-number-of-islands) |
 | [0289-game-of-life](https://github.com/ashirvad47/L.C.D/tree/master/0289-game-of-life) |
 | [0407-trapping-rain-water-ii](https://github.com/ashirvad47/L.C.D/tree/master/0407-trapping-rain-water-ii) |
+| [0498-diagonal-traverse](https://github.com/ashirvad47/L.C.D/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/ashirvad47/L.C.D/tree/master/0542-01-matrix) |
 | [0854-making-a-large-island](https://github.com/ashirvad47/L.C.D/tree/master/0854-making-a-large-island) |
 | [0945-snakes-and-ladders](https://github.com/ashirvad47/L.C.D/tree/master/0945-snakes-and-ladders) |
